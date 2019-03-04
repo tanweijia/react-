@@ -1,0 +1,296 @@
+.div1a0924f341fd4aa78aeec08d406eb15f .items {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .items .item-link {
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -225px;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .items .item-link .item-img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .owl-theme .owl-controls {
+  position: relative;
+  left: 50%;
+  float: left;
+  margin-left: 0;
+  margin-top: -30px;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .owl-theme .owl-controls .owl-pagination {
+  position: relative;
+  left: -50%;
+  float: left;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  background: #cccccc no-repeat top right;
+  overflow: hidden;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f
+  .owl-theme
+  .owl-controls
+  .owl-page
+  .active
+  span {
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  background: #bc0021 no-repeat top right;
+  overflow: hidden;
+}
+.action_Y {
+  height: 793px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.action_Y .action_Y_tit {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_Y_tit.png")
+    no-repeat;
+  width: 368px;
+  height: 59px;
+  margin: 0 auto;
+  position: relative;
+  top: -12px;
+  z-index: 1;
+}
+.action_Y_text {
+  padding-top: 27px;
+  height: 24px;
+}
+.action_Y_text span {
+  width: 6px;
+  height: 24px;
+  display: block;
+  background-color: #c7000b;
+  position: absolute;
+}
+.action_Y_text p {
+  padding-left: 14px;
+  font-size: 24px;
+  color: #0d131a;
+  height: 24px;
+  line-height: 24px;
+}
+.action_Y_text .more {
+  width: 64px;
+  height: 23px;
+  position: relative;
+  top: -20px;
+  font-size: 14px;
+  color: #0d131a;
+  cursor: pointer;
+}
+.action_Y_text .more a {
+  cursor: pointer;
+  display: inline-block;
+  width: 62px;
+  height: 23px;
+  line-height: 23px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more.png")
+    no-repeat right;
+}
+.action_Y_di {
+  width: 100%;
+  height: 7px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png")
+    center top repeat-x;
+  position: relative;
+  top: 8px;
+}
+.action_Y_main {
+  width: 101.5%;
+  height: 110px;
+  padding-top: 30px;
+}
+.action_Y_main .l {
+  width: 44%;
+  height: 110px;
+}
+.action_Y_main .l dd {
+  position: relative;
+}
+.action_Y_main .l p {
+  cursor: pointer;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #0d131a;
+  line-height: 20px;
+  height: 44px;
+}
+.action_Y_main .l p.on {
+  color: #d00f1b;
+}
+.action_Y_main .l span {
+  width: 6px;
+  height: 6px;
+  background: #c7000b;
+  display: block;
+  position: absolute;
+  top: 6px;
+}
+#action_Y_r {
+  width: 54.8%;
+  height: 110px;
+}
+#action_Y_r li {
+  float: left;
+  margin-right: 8px;
+  cursor: pointer;
+  position: relative;
+}
+#action_Y_r.scale {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#action_Y_r .scale.on {
+  -moz-transform: scale3d(0.98, 0.98, 1);
+  -ms-transform: scale3d(0.98, 0.98, 1);
+  -webkit-transform: scale3d(0.98, 0.98, 1);
+  transform: scale3d(0.98, 0.98, 1);
+}
+.kv_more {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  display: none\9;
+  cursor: pointer;
+}
+#action_Y_r li.on .kv_more.on {
+  opacity: 1;
+  transition-duration: 0.4s;
+  display: block\9;
+}
+.kv_more_btn {
+  position: absolute;
+  bottom: 32px;
+  left: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#action_Y_r li.on .kv_more.on .kv_more_btn {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.action_Y_more {
+  width: 100%;
+  height: 460px;
+  padding-top: 40px;
+}
+.action_Y_more .l {
+  width: 67.5%;
+  height: 460px;
+}
+.action_Y_more .l li {
+  cursor: pointer;
+  float: left;
+  width: 224px;
+  background: white;
+  height: 229px;
+  border-left: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.action_Y_more .l li h1 {
+  font-size: 18px;
+  color: #0d131a;
+  text-align: left;
+  padding-left: 16px;
+  padding-right: 22px;
+  padding-top: 30px;
+}
+.action_Y_more .l li p {
+  font-size: 16px;
+  color: #d00f1b;
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 0px;
+}
+.action_Y_more .l li:first-child {
+  float: left;
+  width: 449px;
+  border-top: 1px solid #e5e5e5;
+}
+.action_Y_more .l li .action_Y_proudect {
+  position: absolute;
+  bottom: 20px;
+  left: 48px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.action_Y_more .l li.on .action_Y_proudect {
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  transform: translateX(-10px);
+  left: 35px\9;
+}
+.action_Y_more .l li.on h1 {
+  color: #d00f1b;
+}
+.action_Y_more .l .items {
+  width: 100%;
+  height: 229px;
+  position: relative;
+}
+.action_Y_more .l .items img {
+  width: 100%;
+  height: 100%;
+}
+/*.action_Y_more .l  .owl-theme .owl-controls{position: absolute;top:50%;left: 50%;margin-top: 94px;margin-left:-114px}*/
+.action_Y_more .l .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 5px 7px;
+  /*   background: #e5e5e5;*/
+  overflow: hidden;
+}
+.action_Y_more .l .owl-theme .owl-controls .owl-page .active span {
+  width: 50px;
+  height: 4px;
+  margin: 5px 7px;
+  /* background: #c7000b;*/
+  overflow: hidden;
+}
+.action_Y_more .r {
+  width: 32.4%;
+  height: 460px;
+  border-top: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.action_Y_more .r .items {
+  width: 100%;
+  height: 460px;
+  position: relative;
+}
+.action_Y_more .r .items img {
+  width: 100%;
+  height: 100%;
+}
+/*.action_Y_more .r  .owl-theme .owl-controls{position: absolute;top:50%;left: 50%;margin-top: 200px;margin-left:-114px}*/
+.action_Y_more .r .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  /*margin: 5px 7px;*/
+  /*background: #e5e5e5;*/
+  overflow: hidden;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="http://2sf.efw.cn/css/style2.css" />
+  </head>
+  <body>
+    <div class="page area" style="margin-top: 20px;">
+      <div class=" area2">
+        <div class="area2-left ptt10 fl">
+          <div style="margin-bottom: 50px;">
+            <div
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+            >
+              <span class="f12 red pr5">*</span>用户类型：
+            </div>
+            <div
+              class="fl"
+              style="width: 118px; height: 26px; border: 1px #ccc solid; padding-top: 7px;"
+            >
+              <div class="container">
+                <select name="ddlType2" id="ddlType2" class="select">
+                  <option value="个人用户">个人用户</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <p>
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span
+              >用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;名：</span
+            >
+            <input
+              name="TextBox1"
+              type="text"
+              maxlength="20"
+              id="TextBox1"
+              size="30"
+              class="FormBase"
+            /><span id="error_name" class="red"></span>
+          </p>
+          <p>
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span
+              >密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</span
+            >
+            <input
+              name="TextBox2"
+              type="password"
+              id="TextBox2"
+              class="FormBase"
+            /><span id="error_pwd" class="red"></span>
+          </p>
+          <p>
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span>确认密码：</span
+            >
+            <input
+              name="TextBox3"
+              type="password"
+              id="TextBox3"
+              class="FormBase"
+            /><span id="error_pwd2" class="red"></span>
+          </p>
+          <p>
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span>手机号码：</span
+            >
+            <input
+              name="TextBox4"
+              type="text"
+              id="TextBox4"
+              class="FormBase"
+            /><span id="error_mobile" class="red"></span>
+          </p>
+          <p>
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span>真实姓名：</span
+            >
+            <input
+              name="TextBox5"
+              type="text"
+              id="TextBox5"
+              class="FormBase"
+            /><span id="error_realname" class="red"></span>
+          </p>
+
+          <p style="display: none;">
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span>公司名称：</span
+            >
+            <input
+              name="TextBox6"
+              type="text"
+              id="TextBox6"
+              class="FormBase"
+              style="width: 280px;"
+            /><span id="error_company" class="red"></span>
+          </p>
+          <p style="display: none;">
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span>联系地址：</span
+            >
+            <input
+              name="TextBox8"
+              type="text"
+              id="TextBox8"
+              class="FormBase"
+              style="width: 280px;"
+            /><span id="error_address" class="red"></span>
+          </p>
+          <p>
+            <span
+              style="width: 150px; line-height: 40px; text-align: center"
+              class="fl f14"
+              ><span class="f12 red pr5">*</span>验证码：</span
+            >
+            <input
+              name="txtYzm"
+              type="text"
+              id="txtYzm"
+              class="FormBase"
+            /><span id="error_mobile" class="red"></span>
+            <a id="sms" class="noClick on" href="javascript:;">获取验证码</a>
+          </p>
+          <p style="text-align: center;"></p>
+          <div id="embed-captcha"></div>
+          <p style="display:none" id="wait" class="show">
+            正在加载验证码......
+          </p>
+          <p style="display:none" id="notice" class="hide">
+            请先拖动验证码到相应位置
+          </p>
+          <span
+            ><button
+              type="button"
+              class="submitcss"
+              id="btnSave_new"
+              onclick="if(IsValidPost()){if (typeof(Page_ClientValidate) == 'function') { if (Page_ClientValidate() == false) { return false; }}this.disabled=true;__doPostBack('btnSave_new','');}"
+            ></button
+          ></span>
+          <p></p>
+        </div>
+        <div class="area2-right fr">
+          <div
+            class="f12"
+            style="padding-bottom: 10px; padding-top: 20px; color: #666;"
+          >
+            已有用户注册帐号？
+          </div>
+          <span style="margin-top: 20px;"
+            ><a href="login.aspx" id="denglu">登&nbsp;&nbsp;录</a></span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

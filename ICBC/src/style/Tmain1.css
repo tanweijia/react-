@@ -1,0 +1,78 @@
+.w-center {
+  min-width: 1000px;
+  margin: auto;
+  max-width: 1000px;
+}
+.notice {
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+}
+.notice .w-center {
+  position: relative;
+}
+.notice_lb {
+  width: 125px;
+}
+.notice_lb span {
+  width: 23px;
+  height: 21px;
+  top: 10px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/icon_lb.png")
+    no-repeat center;
+  display: block;
+  position: absolute;
+  left: 11px;
+}
+.notice_lb p {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 44px;
+  position: relative;
+  font-size: 16px;
+  color: #0d131a;
+}
+.notice_main {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  overflow: hidden;
+  height: 40px;
+}
+.notice .notice_main li {
+  height: 30px;
+  line-height: 30px;
+  padding-top: 2px;
+}
+.notice_main p {
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #0d131a;
+}
+.notice_main p.on {
+  color: #d00f1b;
+}
+.notice_more p {
+  cursor: pointer;
+  width: 64px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #0d131a;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+.notice_more a {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more.png")
+    no-repeat right;
+  cursor: pointer;
+  position: relative;
+}

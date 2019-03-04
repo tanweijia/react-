@@ -1,0 +1,6392 @@
+@charset "utf-8";
+/* http://www.icbc.com.cn/icbc/Module/res/css/Loading.css */
+#class .loading-indicator {
+  font-size: 12px;
+  height: 18px;
+}
+
+#loading {
+  position: absolute;
+  /* 出现问题样式 */
+  /* left: expression((document.body.offsetWidth-this.offsetWidth)/2); */
+  top: 40%;
+  border: 1px solid #6593cf;
+  padding: 2px;
+  background: #c3daf9;
+  width: 150px;
+  text-align: center;
+  z-index: 20001;
+}
+#loading .loading-indicator {
+  border: 1px solid #a3bad9;
+  background-color: white;
+  color: #003366;
+  font: bold 13px tahoma, arial, helvetica;
+  padding: 10px;
+  margin: 0;
+}
+.dis {
+  width: 100%;
+  background-color: #0066ff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -moz-opacity: 0.5;
+  filter: alpha(opacity=10);
+  z-index: 19999;
+  height: 100%;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/icbc/Style/Inject.css */
+a.text2_default:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.text2_default:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+a.text2_default:visited {
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+  text-decoration: none;
+}
+a.text2_default:active {
+  font-size: 12px;
+  font-weight: normal;
+  color: #bc0021;
+  text-decoration: underline;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/icbc/include/AD_Huangdengpian.css */
+.button {
+  padding-right: 8px;
+  padding-left: 8px;
+  background: #7b7b63;
+  padding-bottom: 2px;
+  margin: 0px;
+  font: bold 9px sans-serif;
+  border-left: #fff 1px solid;
+  padding-top: 2px;
+  text-decoration: none;
+}
+a.button {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #000000;
+  text-decoration: none;
+}
+a.button:link {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #000000;
+  text-decoration: none;
+}
+a.button:visited {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #000000;
+  text-decoration: none;
+}
+a.button:hover {
+  background: #fff;
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.hdbutton {
+  padding-right: 8px;
+  padding-left: 8px;
+  background: #7b7b63;
+  padding-bottom: 2px;
+  margin: 0px;
+  font: bold 9px sans-serif;
+  border-left: #fff 1px solid;
+  padding-top: 2px;
+  text-decoration: none;
+}
+a.hdbutton {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #000000;
+  text-decoration: none;
+}
+a.hdbutton:link {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #000000;
+  text-decoration: none;
+}
+a.hdbutton:visited {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #000000;
+  text-decoration: none;
+}
+a.hdbutton:hover {
+  background: #fff;
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.trans {
+  filter: progid:DXImageTransform.Microsoft.Alpha(startX=0, startY=0, finishX=100, finishY=100,style=1,opacity=0,finishOpacity=40);
+  background-color: #000;
+}
+.button_tuweb {
+  padding-right: 6px;
+  padding-left: 6px;
+  background: #7b7b63;
+  padding-bottom: 8px;
+  margin: 0px;
+  font: bold 15px sans-serif;
+  height: 30px;
+  filter: alpha(opacity=90);
+  border-left: #fff 1px solid;
+  padding-top: 8px;
+  text-decoration: none;
+}
+a.button_tuweb {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #666666;
+  text-decoration: none;
+}
+a.button_tuweb:link {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #666666;
+  text-decoration: none;
+}
+a.button_tuweb:visited {
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #666666;
+  text-decoration: none;
+}
+a.button_tuweb:hover {
+  background: #ffffff;
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/Common/AdCss/lantern_style.css */
+#NewLunboType2_lantern {
+  border-right: #d1d1d1 1px solid;
+  border-top: #d1d1d1 1px solid;
+  font-size: 14px;
+  overflow: hidden;
+  border-left: #d1d1d1 1px solid;
+  cursor: pointer;
+  line-height: 23px;
+  border-bottom: #d1d1d1 1px solid;
+}
+
+#NewLunboType2_lanternImg {
+  overflow: hidden;
+  position: absolute;
+  visibility: visible;
+}
+
+#NewLunboType2_lanternNavy {
+  border-top: #ffffff 1px solid;
+  font-size: 14px;
+  float: left;
+  overflow: hidden;
+  color: #bc0021;
+  border-bottom: #ffffff 1px solid;
+  height: 22px;
+  background-color: #cccabe;
+  text-align: center;
+}
+
+#NewLunboType2_lanternNavy .div_off1 {
+  float: left;
+  border-bottom: #ffffff 1px solid;
+  height: 23px;
+  background-color: #cccabe;
+  text-align: center;
+}
+#NewLunboType2_lanternNavy .div_on1 {
+  padding-right: 0px;
+  padding-left: 0px;
+  float: left;
+  overflow: hidden;
+  height: 23px;
+  background-color: #f5f4f2;
+  text-align: center;
+}
+#NewLunboType2_lanternNavy .div_off2 {
+  float: left;
+  height: 23px;
+  background-color: #cccabe;
+  text-align: center;
+}
+#NewLunboType2_lanternNavy .div_on2 {
+  padding-right: 0px;
+  padding-left: 0px;
+  float: left;
+  overflow: hidden;
+  height: 23px;
+  background-color: #f5f4f2;
+  text-align: center;
+}
+#NewLunboType2_lanternNavy .div_off3 {
+  float: left;
+  height: 23px;
+  background-color: #cccabe;
+  text-align: center;
+}
+#NewLunboType2_lanternNavy .div_on3 {
+  padding-right: 0px;
+  padding-left: 0px;
+  float: left;
+  overflow: hidden;
+  height: 23px;
+  background-color: #f5f4f2;
+  text-align: center;
+}
+
+.NewLunboType2_li {
+  margin-top: 3px;
+  float: left;
+  margin-left: 6px;
+  width: 15px;
+  color: #ffffff;
+  line-height: 14px;
+  margin-right: 6px;
+  height: 15px;
+  background-color: #cc3300;
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/Common/AdCss/newLunboYT_layout.css */
+/* Home slider style */
+.slideShow {
+  position: relative;
+  height: 375px;
+  width: 100%;
+  z-index: 0;
+  background: #fff;
+  padding: 0 0 0px 0;
+  overflow: hidden;
+  word-spacing: -1px;
+}
+/* 广告上下箭头样式 */
+.slide-pager-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 150;
+  margin-left: 259px;
+  height: 32px;
+  width: 100%;
+  font-size: 14px;
+}
+.slide-pager-indicator a {
+  background: url("../AdRes/Img_NewLunboYT/btn_home_slider_indicator.png") 0 0
+    no-repeat;
+  width: 114px;
+  height: 32px;
+  display: inline-block;
+}
+.slideShow.innerSlider .slide-pager-indicator {
+  margin-left: 244px;
+  height: 20px;
+  width: 246px;
+}
+.slideShow.innerSlider .slide-pager-indicator a {
+  width: 121px;
+  height: 20px;
+  background: url("../AdRes/Img_NewLunboYT/btn_home_slider_indicator_20.png") 0
+    0 no-repeat;
+}
+.slideShow.innerSlider .slide-pager-indicator a.next {
+  width: 121px;
+}
+.slide-pager-indicator a.next,
+.slideShow.innerSlider .slide-pager-indicator a.next {
+  background-position: right 0;
+}
+.slide-pager-indicator a.prev:hover {
+  background-position: 0 bottom;
+}
+.slide-pager-indicator a.next:hover,
+.slideShow.innerSlider .slide-pager-indicator a.next:hover {
+  background-position: right bottom;
+}
+/* 大广告左下区域样式 */
+.cycle-slideshow {
+  width: 100%;
+  height: 375px;
+}
+.cycle-slideshow .item {
+  width: 100%;
+  height: 375px;
+  overflow: hidden;
+}
+.cycle-slideshow .item a {
+  display: block;
+  background: url(../AdRes/Img_NewLunboYT/color_ffffff_30.png) repeat 0 0;
+  padding: 20px;
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.2em;
+  color: #fff;
+  text-decoration: none;
+  z-index: 101;
+  width: 389px;
+  margin-left: -489px;
+}
+.cycle-slideshow .item a .icoArrow {
+  display: inline-block;
+  background: url(../AdRes/Img_NewLunboYT/slide_link_arrow.png) no-repeat 0 1px;
+  *background-position: 0 3px;
+  width: 20px;
+  height: 23px;
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+}
+.cycle-slideshow .item a:hover .icoArrow {
+  background: url(../AdRes/Img_NewLunboYT/slide_link_arrow_hover.png) no-repeat
+    0 1px;
+}
+.cycle-slideshow .item a:hover {
+  color: #bc0021;
+}
+.cycle-slideshow .item img {
+  left: 50%;
+  top: 0;
+  position: absolute;
+  margin-left: -960px;
+  z-index: 100;
+}
+/* 大广告右侧列表栏样式 */
+.slide-pager {
+  position: absolute;
+  left: 50%;
+  margin-left: 259px;
+  top: 0;
+  z-index: 102;
+  width: 233px;
+  height: 342px;
+  overflow: hidden;
+}
+.slide-pager div {
+  margin: 1px 0 0 0;
+}
+.slide-pager span {
+  height: 67px;
+  display: table-cell;
+  *display: block;
+  vertical-align: middle;
+  width: 233px;
+  padding: 0px 20px 0px 20px;
+  *padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.2em;
+  background: url(../AdRes/Img_NewLunboYT/color_ffffff_30.png) repeat 0 0;
+  color: #fff;
+  cursor: pointer;
+  transition: background 200ms ease-out;
+  -moz-transition: background 200ms ease-out;
+  -webkit-transition: background 200ms ease-out;
+}
+.slide-pager span:hover {
+  color: #cd0404 !important;
+}
+.slide-pager div.cycle-pager-active span {
+  background: rgba(96, 96, 96, 0.7) !important;
+  background: #606060 !important;
+  /* *background: #606060 !important; */
+  color: #fff !important;
+}
+/* 小广告右侧列表栏样式 */
+.slideShow.innerSlider {
+  height: 216px;
+  margin-bottom: 30px;
+}
+.slideShow.innerSlider .cycle-slideshow .item,
+.slideShow.innerSlider .cycle-slideshow {
+  height: 216px !important;
+}
+.slideShow.innerSlider .slide-pager {
+  width: 245px;
+  margin-left: 244px;
+  height: 195px;
+  overflow: hidden;
+}
+.slideShow.innerSlider .slide-pager span {
+  background: url(../AdRes/Img_NewLunboYT/color_ffffff_30.png) repeat 0 0;
+  height: 60px;
+  color: #201e1d;
+  font-size: 16px;
+  position: relative;
+  padding: 2px 20px;
+  width: 208px;
+}
+.slideShow.innerSlider .slide-pager div.cycle-pager-active span {
+  color: #fff;
+}
+.slideShow.innerSlider .slide-pager span img {
+  float: left;
+  margin-right: 3px;
+}
+
+.vertSlider {
+  display: inline-block;
+  width: 233px;
+  height: 340px;
+  overflow: hidden;
+}
+.vertSlider .position-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+.vertSlider .swiper-slide {
+  display: block;
+  margin-bottom: 1px;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/Common/AdCss/NewLunboQT_MS_Layout.css */
+/* @charset "utf-8"; */
+
+.manualSwitch_box {
+  border-left: 1px solid #cbcbcb;
+  border-right: 1px solid #cbcbcb;
+  background: url(../AdRes/Img_NewLunboManualSwitch/boxbg.gif) bottom repeat-x
+    #fff;
+  position: relative;
+  padding: 20px 30px;
+}
+.manualSwitch_adBox {
+  margin: 0 auto;
+  position: relative;
+}
+.manualSwitch_adBox .adLeft {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+.manualSwitch_adBox .adRight {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.manualSwitch_adBox .adPic {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.manualSwitch_adBox .adPic ul {
+  width: 20000px;
+  overflow: hidden;
+}
+.manualSwitch_adBox .adPic ul li {
+  float: left;
+  display: inline;
+  margin: 0 5px;
+}
+.manualSwitch_adBox .adPic ul li img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+}
+
+.QuanTongAD_KV {
+  width: 100%;
+  position: relative;
+  z-index: 200;
+}
+.QuanTongAD_KV .QuanTongAD_KVitem {
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.QuanTongAD_KV .QuanTongAD_KVitem a {
+  float: left;
+  width: 100%;
+}
+.QuanTongAD_KV .ctrl_btn {
+  position: absolute;
+  z-index: 110;
+  bottom: 5px;
+  left: 50%;
+  overflow: hidden;
+}
+.QuanTongAD_KV .ctrl_btn .QuanTongAD_left {
+  float: left;
+  margin-right: 10px;
+  background: url(../AdRes/Img_NewLunboQuanTong/kv_left.gif) no-repeat;
+  width: 30px;
+  height: 19px;
+  cursor: pointer;
+}
+.QuanTongAD_KV .ctrl_btn .QuanTongAD_right {
+  float: left;
+  margin-left: 10px;
+  background: url(../AdRes/Img_NewLunboQuanTong/kv_right.gif) no-repeat right;
+  width: 30px;
+  height: 19px;
+  cursor: pointer;
+}
+.QuanTongAD_KV .ctrl_btn ul {
+  float: left;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0;
+}
+.QuanTongAD_KV .ctrl_btn ul li {
+  background: url(../AdRes/Img_NewLunboQuanTong/kv_li.png) no-repeat center
+    center;
+  width: 14px;
+  height: 19px;
+  cursor: pointer;
+  margin: 0 2px;
+  float: left;
+  list-style: none;
+}
+.QuanTongAD_KV .ctrl_btn ul li.on {
+  background: url(../AdRes/Img_NewLunboQuanTong/kv_li_on.png) no-repeat center
+    center;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/css/page/main.css */
+a,
+body,
+img,
+li,
+ul {
+  border: 0;
+  outline: 0;
+}
+.rectify,
+.vam {
+  vertical-align: middle;
+}
+body,
+li,
+ul {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  background: #fff;
+}
+.fix {
+  position: fixed;
+}
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.hide {
+  display: none;
+}
+.pdr10 {
+  padding-right: 10px;
+}
+.pdr35 {
+  padding-right: 35px;
+}
+.pdl10 {
+  padding-left: 10px;
+}
+.pdl25 {
+  padding-left: 25px;
+}
+.pdl80 {
+  padding-left: 80px;
+}
+.pdl200 {
+  padding-left: 200px;
+}
+.bgcc40014 {
+  background-color: #c40014;
+}
+.w100pct {
+  width: 100%;
+}
+.h100pct {
+  height: 100%;
+}
+.w950 {
+  width: 950px;
+}
+.h30 {
+  height: 30px;
+}
+.owl-carousel,
+.owl-carousel .owl-wrapper-outer,
+.rectify {
+  height: 100%;
+}
+.lh30 {
+  line-height: 30px;
+}
+.mg0a {
+  margin: 0 auto;
+}
+.default,
+.input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+.ofh {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fs10 {
+  font-size: 10px;
+}
+.fs11 {
+  font-size: 11px;
+}
+.fs12 {
+  font-size: 12px;
+}
+.fs13 {
+  font-size: 13px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs15 {
+  font-size: 15px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs17 {
+  font-size: 17px;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs19 {
+  font-size: 19px;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fs21 {
+  font-size: 21px;
+}
+.fs22 {
+  font-size: 22px;
+}
+.fs23 {
+  font-size: 23px;
+}
+.fs24 {
+  font-size: 24px;
+}
+.c0 {
+  color: #000;
+}
+.cf {
+  color: #fff;
+}
+.tac {
+  text-align: center;
+}
+.rectify {
+  display: inline-block;
+  width: 0;
+}
+.vis {
+  opacity: 1;
+}
+.invis {
+  opacity: 0;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+}
+.input {
+  background: 0 0;
+}
+.default {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.vision-impaired .fs10 {
+  font-size: 12px;
+}
+.vision-impaired .fs11 {
+  font-size: 13px;
+}
+.vision-impaired .fs12 {
+  font-size: 14px;
+}
+.vision-impaired .fs13 {
+  font-size: 15px;
+}
+.vision-impaired .fs14 {
+  font-size: 16px;
+}
+.vision-impaired .fs15 {
+  font-size: 17px;
+}
+.vision-impaired .fs16 {
+  font-size: 18px;
+}
+.vision-impaired .fs17 {
+  font-size: 19px;
+}
+.vision-impaired .fs18 {
+  font-size: 20px;
+}
+.vision-impaired .fs19 {
+  font-size: 21px;
+}
+.vision-impaired .fs20 {
+  font-size: 22px;
+}
+.vision-impaired .fs21 {
+  font-size: 23px;
+}
+.vision-impaired .fs22 {
+  font-size: 24px;
+}
+.vision-impaired .fs23 {
+  font-size: 25px;
+}
+.vision-impaired .fs24 {
+  font-size: 26px;
+}
+.vision-impaired .Custom_Overseas_HeadNavigationBar-bg,
+.vision-impaired .moscow-footer-bg {
+  background-color: #000;
+  background-image: none;
+}
+.vision-impaired .filter-image {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.CrumbClass {
+  display: inline-block;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/ICBC/Style/icbc.css */
+/*面包屑控件样式类*/
+.icbcUserControlCrumb_text3 {
+  font-size: 12px;
+  color: Black;
+  text-decoration: none;
+}
+
+/*搜索框控件样式类*/
+.icbcUserControlSearchframe_search {
+  /*cursor:hand;     background-color:#ffffff; 	border-width:0px;*/
+  text-decoration: none;
+  font-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+/*网上调查问卷列表控件样式类*/
+.icbcUserControlQuestionnaireList_questionnaire {
+  font-size: 12px;
+  text-decoration: none;
+}
+/*纵向图片控件样式类*/
+.commonprotraitimage {
+  color: #000000;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/*摘要列表控件样式类*/
+.channelSummaryListLink {
+  font-size: 14px;
+  color: #000000;
+  line-height: 18px;
+  text-decoration: none;
+}
+a.channelSummaryListLink:link {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+a.channelSummaryListLink:hover {
+  font-size: 14px;
+  color: #bc0021;
+  text-decoration: underline;
+}
+.channelSummaryListDate {
+  font-size: 14px;
+  color: red;
+  text-decoration: none;
+}
+
+/*新闻头条控件样式类*/
+.channelTopNewsLink {
+  font-size: 14px;
+  color: #000000;
+  line-height: 18px;
+  text-decoration: none;
+}
+a.channelTopNewsLink:link {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+a.channelTopNewsLink:hover {
+  font-size: 14px;
+  color: #bc0021;
+  text-decoration: underline;
+}
+.channelTopNewsDate {
+  font-size: 20px;
+  color: Black;
+  text-decoration: none;
+}
+.channelSummaryListTitle {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*设置频道导航条的样式开始*/
+/***一级频道未被选中的样式***/
+.navigationBarUnSelectedFisrtChannelStyle {
+  color: #000000;
+  line-height: 18px;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+td.navigationBarUnSelectedFisrtChannelStyle {
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+  background-color: #bc0021;
+}
+a.navigationBarUnSelectedFisrtChannelStyle:link {
+  color: #000000;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+
+a.navigationBarUnSelectedFisrtChannelStyle:hover {
+  color: #ffffff;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+/***一级频道被选中的样式***/
+.navigationBarSelectedFisrtChannelStyle {
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  width: 150px;
+}
+td.navigationBarSelectedFisrtChannelStyle {
+  width: 150px;
+  height: 21px;
+  background-color: #cccccc;
+}
+
+/***频道导航条当前频道样式***/
+.navigationBarCurrentChannelStyle {
+  color: #bc0021;
+  line-height: 18px;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+td.navigationBarCurrentChannelStyle {
+  color: #bc0021;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+  background-color: white;
+}
+/***频道导航条子频道样式***/
+.navigationBarSubChannelStyle {
+  color: #7f7f7f;
+  text-decoration: none;
+  height: 21px;
+  width: 150px;
+}
+td.navigationBarSubChannelStyle {
+  width: 150px;
+  height: 21px;
+  background-color: White;
+  /**border-bottom: 1px solid #bc0021;*/
+}
+a.navigationBarSubChannelStyle:link {
+  color: #7f7f7f;
+  text-decoration: none;
+
+  height: 21px;
+  font-size: 12px;
+}
+a.navigationBarSubChannelStyle:hover {
+  color: #000000;
+  text-decoration: none;
+
+  height: 21px;
+  font-size: 12px;
+}
+
+/***频道风格定义***/
+.navigationBarOtherChannelStyle {
+  color: #7f7f7f;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+td.navigationBarOtherChannelStyle {
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+a.navigationBarOtherChannelStyle:link {
+  color: #7f7f7f;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+a.navigationBarOtherChannelStyle:hover {
+  color: Black;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+
+/*************************设置导航条样式结束***************************/
+
+/*网站地图一样式开始*/
+/***网站地图一的样式***/
+.sitemap1text1 {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+a.sitemap1text1:link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+a.sitemap1text1:hover {
+  color: #bc0021;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 12px;
+}
+a.sitemap1text1:visited {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sitemap1text3 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap1text3:link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap1text3:hover {
+  color: #bc0021;
+  text-decoration: underline;
+  font-size: 12px;
+}
+a.sitemap1text3:visited {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+.sitemap1text2 {
+  color: #bc0021;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap1text2:link {
+  color: #bc0021;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap1text2:hover {
+  color: #bc0021;
+  text-decoration: underline;
+  font-size: 12px;
+}
+a.sitemap1text2:visited {
+  color: #bc0021;
+  text-decoration: none;
+  font-size: 12px;
+}
+/***网站地图二的样式***/
+.sitemap2text1 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 12px;
+}
+a.sitemap2text1:link {
+  color: #009;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+a.sitemap2text1:visited {
+  color: #800080;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+a.sitemap2text1:hover,
+a.sitemap2text1:active,
+a.sitemap2text1:focus {
+  color: #f00;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sitemap2text2 {
+  text-decoration: underline;
+  font-size: 12px;
+}
+a.sitemap2text2:link {
+  color: #009;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap2text2:visited {
+  color: #800080;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap2text2:hover,
+a.sitemap2text2:active,
+a.sitemap2text2:focus {
+  color: #f00;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+/***网站地图三的样式***/
+.sitemap3text1 {
+  text-decoration: underline;
+  font-size: larger;
+}
+a.sitemap3text1:link {
+  color: #0000ff;
+  text-decoration: none;
+  font-size: larger;
+}
+a.sitemap3text1:visited {
+  color: #0000ff;
+  text-decoration: none;
+  font-size: larger;
+}
+a.sitemap3text1:hover,
+a.sitemap3text1:active,
+a.sitemap3text1:focus {
+  color: #0000ff;
+  text-decoration: underline;
+  font-size: larger;
+}
+
+.sitemap3text2 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: left;
+  vertical-align: top;
+  height: 40px;
+}
+td.sitemap3text2 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+a.sitemap3text2:link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap3text2:hover {
+  color: #000000;
+  text-decoration: underline;
+  font-size: 12px;
+}
+a.sitemap3text2:visited {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/***网站地图四的样式***/
+.sitemap4text1 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+a.sitemap4text1:link {
+  color: #000000;
+  /* 问题代码=================================================================== */
+  /* TEXT-DECORATION: nonefont-size:12px;  */
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+a.sitemap4text1:hover {
+  color: #bc0021;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+a.sitemap4text1:visited {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+
+.sitemap4text2 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap4text2:link {
+  color: #000000;
+  /* 问题代码=================================================================== */
+  /* TEXT-DECORATION: nonefont-size:12px */
+}
+a.sitemap4text2:hover {
+  color: #bc0021;
+  text-decoration: underline;
+  font-size: 12px;
+}
+a.sitemap4text2:visited {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.sitemap4text3 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+a.sitemap4text3:link {
+  color: #000000;
+  /* 问题代码=================================================================== */
+  /* TEXT-DECORATION: nonefont-size:12px */
+}
+a.sitemap4text3:hover {
+  color: #bc0021;
+  text-decoration: underline;
+  font-size: 12px;
+}
+a.sitemap4text3:visited {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/*网站地图样式结束*/
+/*功能优化控件样式-开始*/
+/*功能优化搜索按钮样式*/
+.optimizeSearchButton {
+  background-repeat: no-repeat;
+  cursor: hand;
+  background-image: url(/icbc/Module/res/ICBCImages/button.gif);
+  vertical-align: 10%;
+  border: 0;
+  width: 56px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+
+/*功能优化标题样式*/
+.optimizeSearchCaption {
+  color: black;
+  border-bottom: 1px solid #98c0f4;
+  border-top: 1px solid #98c0f4;
+  background-image: url(/icbc/Module/res/ICBCImages/BGTITLE.gif);
+  height: 25px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+.optimizeSearchText {
+  font-size: 12px;
+}
+
+/*功能优化外汇牌价英文搜索*/
+.optimizeQuotionEngSearch {
+  font-size: 12px;
+  font-family: "Geneva", "Arial", "Helvetica", "san-serif";
+  text-decoration: none;
+}
+/*功能优化控件样式-结束*/
+
+/*****************************************/
+/*************AUTHOR:冯志欣**************/
+/******mail:fenzhixin@neusoft.com*******/
+/**************************************/
+
+/*通用分割符样式，可通用，两种 一 用背景颜色分割 二 用背景图片分割*/
+
+.common_seperator {
+  height: 1px;
+}
+.common_seperator_color {
+  background-color: #ededed;
+}
+
+.common_seperator_background {
+  background-image: url(/icbc/html/stock/images/rep_2.jpg);
+}
+/***********************通用分割符样式结束****************************/
+
+/*特殊页面二的使用样式-begin*/
+.SPTM_table {
+  width: 580px;
+}
+
+.SPTM_title_text2 {
+  color: #bc0021;
+  text-decoration: none;
+  font-size: 14px;
+}
+a.SPTM_title_text2:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.SPTM_title_text2:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+a.SPTM_title_text2:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.SPTM_summary_text2 {
+  color: #bc0021;
+  text-decoration: none;
+  font-size: 14px;
+}
+/*特殊页面二的使用样式-end*/
+
+/*特殊页面一的使用样式-begin*/
+.SPOM_title_text20 {
+  font-size: 14px;
+  color: #169abb;
+  line-height: 18px;
+  text-decoration: none;
+}
+a.SPOM_title_text20:link {
+  font-size: 14px;
+  color: #169abb;
+  text-decoration: none;
+}
+a.SPOM_title_text20:hover {
+  font-size: 14px;
+  color: #169abb;
+  text-decoration: underline;
+}
+
+.SPOM_table_text20 {
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  width: 580px;
+}
+/*特殊页面一的使用样式-end*/
+
+/*通用信息列表(包含扩展属性模块)的使用样式-begin*/
+
+.CIM_table {
+  text-decoration: none;
+  color: #000000;
+  width: 410px;
+  font-size: 14px;
+}
+a.CIM_table:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.CIM_table:hover {
+  color: #bc0000;
+  text-decoration: underline;
+}
+.CIM_date_text2 {
+  color: #000000;
+  font-family: "宋体";
+  font-size: 14px;
+  text-decoration: none;
+}
+a.CIM_date_text2:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.CIM_date_text2:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+a.CIM_date_text2:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.CIM_more {
+  color: #bc0021;
+  text-decoration: none;
+}
+a.CIM_more:link {
+  color: #bc0021;
+  text-decoration: none;
+}
+a.CIM_more:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+
+.CIM_before_text {
+  color: #bc0021;
+  text-decoration: none;
+}
+
+/*通用信息列表的使用样式-end*/
+
+/*表格信息模块(包含手工)的使用样式-begin*/
+.tInfoModule_jcsh {
+  font-size: 12px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+a.tInfoModule_jcsh:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.tInfoModule_jcsh:hover {
+  color: #bc0000;
+  text-decoration: underline;
+}
+.tInfoModule_tablejcsh {
+  color: #000000;
+  background-color: #f2f2f2;
+  width: 100%;
+  text-align: center;
+}
+
+.tInfoModule_texte2 {
+  font-size: 12px;
+  line-height: 20px;
+  color: #696969;
+  text-decoration: none;
+}
+a.tInfoModule_texte2:link {
+  color: #696969;
+  text-decoration: none;
+}
+a.tInfoModule_texte2:hover {
+  color: #696969;
+  text-decoration: underline;
+}
+a.tInfoModule_texte2:visited {
+  color: #696969;
+  text-decoration: none;
+}
+.tInfoModule_style80 {
+  color: #ff9900;
+}
+
+.tInfoModule_table {
+  height: 105px;
+  width: 160px;
+  text-align: left;
+}
+/*表格信息模块(包含手工)的使用样式-end*/
+
+/****************************************END*****************************************/
+
+/*************************************树形菜单1开始***********************************/
+/*********第一级未选定的栏目样式********/
+.MenuTree1_unselectedfirstlayer {
+  color: #ffffff;
+  line-height: 18px;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+td.MenuTree1_unselectedfirstlayer {
+  width: 100%;
+  font-size: 12px;
+  background-color: #bc0021;
+}
+a.MenuTree1_unselectedfirstlayer:link {
+  color: #ffffff;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+
+a.MenuTree1_unselectedfirstlayer:hover {
+  color: #000000;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+
+/***********第一级选定的栏目样式*****************/
+.MenuTree1_selectedfirstlayer {
+  color: #ffffff;
+  line-height: 18px;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+td.MenuTree1_selectedfirstlayer {
+  width: 100%;
+  font-size: 12px;
+  background-color: #cccccc;
+}
+
+/*******************其它未选中栏目的样式******************************/
+.MenuTree1_unselectedotherlayer {
+  /* color: ; */
+  line-height: 18px;
+  text-decoration: none;
+  font-size: 12px;
+}
+td.MenuTree1_unselectedotherlayer {
+  width: 100%;
+  font-size: 12px;
+  background-color: Red;
+}
+a.MenuTree1_unselectedotherlayer:link {
+  color: #000000;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+
+a.MenuTree1_unselectedotherlayer:hover {
+  color: #ff0000;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+
+a.MenuTree1_unselectedotherlayer:visited {
+  color: #000000;
+  text-decoration: none;
+  width: 150px;
+  height: 21px;
+  font-size: 12px;
+}
+/***********其它选定的栏目样式*****************/
+.MenuTree1_selectedotherlayer {
+  color: #bc0021;
+  line-height: 18px;
+  text-decoration: none;
+  font-size: 12px;
+}
+td.MenuTree1_selectedotherlayer {
+  color: #bc0021;
+  width: 100%;
+  font-size: 12px;
+  background-color: Green;
+}
+/*树形菜单1结束*/
+
+/* 树状菜单2 xuzhp@neusoft.com */
+/********************** 未选中的第一级菜单 ************************/
+.MenuTree2_unselectedfirstlayer {
+  color: #680b19;
+  line-height: 18px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+td.MenuTree2_unselectedfirstlayer {
+  background-color: #ffffff;
+}
+
+a.MenuTree2_unselectedfirstlayer:link {
+  color: #680b19;
+  text-decoration: none;
+}
+
+a.MenuTree2_unselectedfirstlayer:hover {
+  color: #c60001;
+  text-decoration: none;
+  font-weight: bolder;
+}
+/***************树状菜单2  未被选中的其它级菜单  *****************/
+.MenuTree2_unselectedotherlayer {
+  font-size: 11px;
+  color: #808080;
+  line-height: 18px;
+  text-decoration: none;
+}
+td.MenuTree2_unselectedotherlayer {
+  background-color: #f6f6f6;
+}
+a.MenuTree2_unselectedotherlayer:link {
+  color: #808080;
+  text-decoration: none;
+}
+
+a.MenuTree2_unselectedotherlayer:hover {
+  color: #c60001;
+  text-decoration: none;
+  font-weight: bolder;
+}
+/***************树状菜单2  被选中的第一级菜单  *****************/
+.MenuTree2_selectedfirstlayer {
+  color: #c60001;
+  line-height: 18px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+td.MenuTree2_selectedotherlayer {
+  background-color: #ffffff;
+}
+/***************树状菜单2  被选中的其它级菜单  *****************/
+.MenuTree2_selectedotherlayer {
+  color: #c60001;
+  line-height: 18px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+td.MenuTree2_selectedotherlayer {
+  background-color: #f6f6f6;
+  font-size: 14px;
+}
+
+/******************** 二级页列表开始 ************************************/
+/**************** 日期样式 ************/
+.secondarypagelist_date {
+  color: #334496;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "隶书";
+}
+td.secondarypagelist_date {
+  color: #334496;
+}
+/**************** 更多样式 , 文章标题样式 , 翻页样式************/
+.icbcNewUserControls_secondarypagelist_titleStyle {
+  color: #267f7a;
+  font-size: 14px;
+  text-decoration: none;
+}
+.icbcNewUserControls_secondarypagelist_more {
+  width: 45px;
+  text-align: right;
+}
+.icbcNewUserControls_secondarypagelist_perCharacterStyle {
+  color: #ff6600;
+}
+.icbcNewUserControls_secondarypagelist_infoStyle {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+a.icbcNewUserControls_secondarypagelist_titleStyle:hover {
+  font-size: 14px;
+  color: #bc0021;
+  text-decoration: underline;
+}
+/**************** 表格样式 ************/
+.secondarypagelist_table {
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+}
+td.secondarypagelist_table {
+  color: #334496;
+}
+
+/**************** 分割线样式 ************/
+
+td.secondarypagelist_separator {
+  background-color: Red;
+}
+/**************** 顶部的栏目的样式 ************/
+td.secondarypagelist_channel {
+  color: Red;
+}
+/******************** 二级页列表结束 ************************************/
+
+/*下拉框模块样式类(包括手动)*/
+.icbcNewUserControls_DropDownList_ddt {
+  border-color: #adc8f7;
+  background-color: #ffffff;
+}
+
+/*图文信息模块一*/
+.icbcNewUserControls_ImageArticle_module {
+  font-size: 16px;
+  color: Black;
+  font-weight: bold;
+}
+.icbcNewUserControls_ImageArticle_moreText {
+  font-size: 14px;
+  color: Black;
+  font-weight: bold;
+}
+.icbcNewUserControls_ImageArticle_title {
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+}
+.icbcNewUserControls_ImageArticle_summary {
+  font-size: 14px;
+  color: black;
+}
+.icbcNewUserControls_ImageArticle_divisionTS {
+  /*background-image:url(http://localhost/icbc/Module/res/ExtraTemplates/UCImg/rep_1.jpg);*/
+}
+.icbcNewUserControls_ImageArticle_infoDivision {
+  /*background-image:url(http://localhost/icbc/Module/res/ExtraTemplates/UCImg/rep_1.jpg);*/
+}
+.icbcNewUserControls_ImageArticle_more {
+  font-size: 12px;
+  color: Red;
+  font-weight: normal;
+}
+
+/*图文信息模块二（一图对多文）*/
+
+/* 横向滚动信息 */
+.icbcNewUserControls_HorizontalRollingInfo_infontCharacter {
+  /*background-image:url(http://localhost/icbc/Module/res/ExtraTemplates/UCImg/ticket_bg.gif);*/
+  font-size: 12px;
+  color: red;
+}
+.icbcNewUserControls_HorizontalRollingInfo_infont {
+  text-decoration: none;
+  font-size: 12px;
+  color: Blue;
+  font-weight: bold;
+}
+
+/*导航栏2 */
+.icbcNewUserControls_NavigationBar2_division_Symbol {
+  font-family: 宋体;
+  color: gray;
+}
+.icbcNewUserControls_NavigationBar2_noSelect {
+  color: Black;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+.icbcNewUserControls_NavigationBar2_select {
+  color: Red;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* 日期时间模块*/
+.icbcNewUserControls_Date_date {
+  font-size: 12px;
+  color: Black;
+  font-weight: normal;
+}
+
+/*商品轮播（翻屏竖滚）*/
+a.icbcNewUserControls_CommodityRolling_commodityInfo:link {
+  font-size: 16px;
+  color: #e49d1f;
+  text-decoration: none;
+}
+．icbcNewUserControls_CommodityRolling_commodityInfo {
+  font-size: 12px;
+  color: Black;
+  font-weight: normal;
+}
+
+/* 带推荐信息模块（包括手工） */
+.icbcNewUserControls_CommendInfo_commendInfoStyle {
+  font-size: 12px;
+  color: Black;
+  font-weight: normal;
+  background-color: #ffffff;
+}
+.icbcNewUserControls_CommendInfo_commendInfoTitleStyle {
+  font-size: 16px;
+  color: Red;
+  font-weight: bold;
+}
+.icbcNewUserControls_CommendInfo_commendInfoSummaryStyle {
+  font-size: 12px;
+  color: Black;
+  font-weight: normal;
+}
+.icbcNewUserControls_CommendInfo_commendInfoDetailStyle {
+  font-size: 12px;
+  color: Black;
+  font-weight: normal;
+  text-decoration: none;
+}
+.icbcNewUserControls_CommendInfo_subordinationInfoStyle {
+  font-size: 12px;
+  color: Black;
+  font-weight: normal;
+  text-decoration: none;
+}
+.icbcNewUserControls_CommendInfo_subordinationInfoDateStyle {
+  font-size: 12px;
+  color: Black;
+  font-weight: normal;
+}
+.icbcNewUserControls_CommendInfo_DivisionPSInfoStyle {
+  /*background-image:url(http://localhost/icbc/Module/res/ExtraTemplates/UCImg/ticket_bg.gif);*/
+}
+
+/* 栏目和信息调用模块（包括手工） */
+.icbcNewUserControls_ChannelPostingInvoke_characterStyle {
+  color: Black;
+}
+.icbcNewUserControls_ChannelPostingInvoke_tableStyle {
+  border: 0;
+  border-spacing: 0;
+  vertical-align: top;
+}
+.icbcNewUserControls_ChannelPostingInvoke_channelStyle {
+  font-weight: bolder;
+  font-size: 12px;
+  color: Black;
+  text-decoration: none;
+}
+.icbcNewUserControls_ChannelPostingInvoke_infoStyle {
+  font-size: 12px;
+  color: Red;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/*相关链接*/
+.ralatingPageForTemplate {
+  font-size: 12px;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+a.ralatingPageForTemplate:link {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+
+a.ralatingPageForTemplate:hover {
+  font-size: 14px;
+  color: #bc0021;
+  text-decoration: none;
+}
+/*理财类信息模板，业务类信息模板*/
+/*模板标题样式*/
+.icbcFinanceAndOperationMessageTemplate_text19 {
+  font-size: 24pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*模板副标题样式*/
+.icbcFinanceAndOperationMessageTemplate_text20 {
+  font-size: 24px;
+  font-weight: bold;
+  color: Black;
+  text-decoration: none;
+}
+.icbcFinanceAndOperationMessageTemplate_text21 {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+.icbcFinanceAndOperationMessageTemplate_bgimg {
+  background-image: url(/icbc/Module/res/rep_22.jpg);
+  background-position: center;
+  background-color: Transparent;
+  background-repeat: repeat;
+}
+
+/*导航栏模块（栏目扩展属性相关）开始*/
+.icbcNavigationFromChannelInfoControl {
+  font-size: 12px;
+  background-color: #eaeaea;
+}
+.icbcNavigationFromChannelInfoSplit {
+  color: Black;
+}
+
+.icbcNavigationFromChannelInfoUnSelect {
+  color: #000000;
+  text-decoration: none;
+}
+a.icbcNavigationFromChannelInfoUnSelect:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.icbcNavigationFromChannelInfoUnSelect:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+a.icbcNavigationFromChannelInfoUnSelect:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.icbcNavigationFromChannelInfoSelect {
+  color: #bc0021;
+  text-decoration: none;
+}
+a.icbcNavigationFromChannelInfoSelect:link {
+  color: #bc0021;
+  text-decoration: none;
+}
+a.icbcNavigationFromChannelInfoSelect:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+/*导航栏模块（栏目扩展属性相关）结束*/
+
+/*品牌服务区模块（栏目扩展属性相关）开始*/
+.icbcBrandServiceAreaHeader {
+  font-weight: bold;
+  background-position: 100px;
+  background-image: url(/icbc/Module/res/rep_22.jpg);
+  background-repeat: repeat-y;
+  border-color: Black;
+  background-color: Yellow;
+}
+.icbcBrandServiceAreaTable {
+  font-size: 14px;
+}
+/*品牌服务区模块（栏目扩展属性相关）结束*/
+
+/*相关文章模块（栏目扩展属性相关）开始*/
+.icbcCorrelativeArticleHeader {
+  background-color: #b0e0e6;
+  font-weight: bold;
+  font-size: 14px;
+}
+.icbcCorrelativeArticleControl {
+  font-size: 14px;
+}
+a.icbcCorrelativeArticleControl:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.icbcCorrelativeArticleControl:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+a.icbcCorrelativeArticleControl:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.icbcCorrelativeArticleDate {
+  font-size: 14px;
+  color: Gray;
+}
+.icbcCorrelativeArticleSplit {
+  height: 0px;
+  background-image: url(/icbc/Module/res/rep_22.jpg);
+  background-repeat: repeat-x;
+}
+.icbcCorrelativeArticleForwardStyle {
+  color: Red;
+}
+/*相关文章模块（栏目扩展属性相关）结束*/
+
+/* =============================================== */
+
+/* http://www.icbc.com.cn/ICBC/Module/res/common2.css */
+
+.smallbox {
+  text-align: center;
+  border: 0pt;
+}
+
+input,
+textarea,
+option,
+select {
+  font-size: 9pt;
+  font-family: "宋体";
+  color: #000000;
+  /*border: 1pt solid #CCCCCC;*/
+}
+input.inputbtn {
+  font-family: Verdana;
+  font-size: 9pt;
+  color: #efefef;
+  background-color: #99ccff;
+  border: 5px outset #dfdfdf;
+}
+
+.blank_gridleft {
+  color: #000000;
+  background-color: #ffffff;
+}
+.grid_trbg {
+  background: #f8fbf4;
+  line-height: 18px;
+}
+td {
+  font-size: 12px;
+  text-decoration: none;
+}
+input {
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+}
+body {
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+  padding: 0px;
+  margin: auto;
+  text-decoration: none;
+  margin: 0;
+}
+html {
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+  padding: 0px;
+  margin: auto;
+  text-decoration: none;
+  margin: 0;
+}
+select {
+  font-size: 12px;
+  text-decoration: none;
+}
+.input {
+  border-right: #b3b3b3 1px solid;
+  border-top: #b3b3b3 1px solid;
+  font-size: 12px;
+  border-left: #b3b3b3 1px solid;
+  border-bottom: #b3b3b3 1px solid;
+  background-color: #ededed;
+}
+.text1 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #314294;
+  text-decoration: none;
+}
+.text_gg {
+  color: #000000;
+  line-height: 18px;
+  text-decoration: none;
+}
+a.text_gg:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.text_gg:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a.text_gg:hover {
+  color: #bc0021;
+  text-decoration: none;
+}
+.text2 {
+  color: #000000;
+  text-decoration: none;
+}
+a.text2:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.text2:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+a.text2:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.text3 {
+  font-size: 12px;
+  color: #7f7f7f;
+  text-decoration: none;
+}
+a.text3:link {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+a.text3:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.text4 {
+  color: #000000;
+  text-decoration: none;
+}
+a.text4:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.text4:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.menu {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.menu:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.menu:hover {
+  color: #000000;
+  text-decoration: none;
+}
+p {
+  text-decoration: none;
+}
+.p {
+  text-decoration: none;
+}
+h1 {
+  font-weight: bold;
+  font-size: 150%;
+  text-decoration: none;
+}
+h2 {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+h3 {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+.h2 {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+.h3 {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu1 {
+  font-size: 9pt;
+  color: #000000;
+  background-color: #ffffff;
+}
+.more {
+  color: #bc0021;
+  text-decoration: none;
+}
+a.more:link {
+  color: #bc0021;
+  text-decoration: none;
+}
+a.more:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+.text21 {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+.text20 {
+  font-size: 14px;
+  color: #000000;
+  line-height: 18px;
+  text-decoration: none;
+}
+a.text20:link {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+a.text20:hover {
+  font-size: 14px;
+  color: #bc0021;
+  text-decoration: underline;
+}
+.text2b {
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+a.text2b:link {
+  color: #000000;
+  text-decoration: none;
+}
+a.text2b:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a.text2b:hover {
+  color: #bc0021;
+  text-decoration: underline;
+}
+.text2c {
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+a.text2c:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.text2c:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.text2c:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.BTN {
+  background-repeat: no-repeat;
+  cursor: hand;
+  background-image: url(/icbc/Module/res/ICBCImages/button.gif);
+  vertical-align: 10%;
+  border: 0;
+  width: 56px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+/*有全部线单元格*/
+td.tdwithborder {
+  border-right: silver 1px solid;
+  border-top: silver 1px solid;
+  margin: 0px;
+  border-left: silver 1px solid;
+  border-bottom: silver 1px solid;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+  margin: 0;
+  color: #003366;
+}
+/*有下线单元格*/
+td.tdwithbottomline {
+  border-bottom: silver 1px solid;
+}
+/*有上线单元格*/
+td.tdwithtopline {
+  border-top: silver 1px solid;
+}
+/*表格线*/
+table.tablewithborder {
+  border-bottom: silver 1px solid;
+  border-top: silver 1px solid;
+  border-right: silver 1px solid;
+  border-left: silver 1px solid;
+}
+/*--------------------------------gridview_css------------------------------------------*/
+/*fixtablehead*/
+.Freezing {
+  position: relative;
+  table-layout: fixed;
+  /* 问题代码 */
+  /* top: expression(this.offsetParent.scrollTop); */
+  z-index: 10;
+}
+/*fixtablehead*/
+.Freezing th {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 2px;
+}
+
+.Freezing1 {
+  position: relative;
+  table-layout: fixed;
+  /* 问题代码 */
+  /* top: expression(this.offsetParent.scrollTop-1); */
+  z-index: 10;
+}
+/*fixtablehead*/
+.Freezing1 th {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 2px;
+}
+/*grid-head-foot*/
+.grid_titlebg {
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-size: 13px;
+  background: #ebeadb url(ICBCImages/grid-hrow.gif) repeat-x;
+  line-height: 18px; /**/
+}
+/*grid-RowStyle*/
+.grid_rowstyle {
+  background-color: #e3eaeb;
+}
+/*grid-RowStyle-mouseover*/
+.grid_rowmouseover {
+  background-color: #d9e8fb;
+}
+/*grid-EditRowStyle*/
+.grid_editrowstyle {
+  background-color: #7c6f57;
+}
+/*grid-selectedrowstyle*/
+.grid_selectedstyle {
+  background-color: #c5bbaf;
+  font-weight: bolder;
+  color: #333333;
+}
+/*grid-Alternating*/
+.grid_alternatingstyle {
+  background-color: White;
+}
+/*------------------------------------layout--------------------------------------------*/
+/*layout-toobar*/
+.layout_toobar {
+  color: black;
+  border-bottom: 1px solid #98c0f4;
+  border-top: 1px solid #98c0f4;
+
+  background-image: url(ICBCImages/BGTITLE.gif);
+  height: 25px;
+}
+/*layout css --mouseout*/
+.layout_main {
+  height: 100%;
+  width: 100%;
+  background: #c3daf9 url(ICBCImages/myfeedContent.gif) no-repeat;
+  background-repeat: no-repeat;
+}
+/*layout css --mouseover*/
+.layout_main_over {
+  height: 100%;
+  width: 100%;
+  background: #dfefff url(ICBCImages/myfeedContent.gif) no-repeat;
+  cursor: pointer;
+}
+.layout_center {
+  height: 100%;
+  width: 100%;
+  background: #c3daf9 url(ICBCImages/myfeedstree.gif) no-repeat;
+  background-repeat: no-repeat;
+}
+/*layout css --mouseover*/
+.layout_center_over {
+  height: 100%;
+  width: 100%;
+  background: #dfefff url(ICBCImages/myfeedstree.gif) no-repeat;
+  cursor: pointer;
+}
+/*layout css --mouseout*/
+.layout_north {
+  height: 100%;
+  width: 100%;
+  background: #c3daf9 url(ICBCImages/preview.gif) no-repeat;
+  background-repeat: no-repeat;
+}
+/*layout css --mouseover*/
+.layout_north_over {
+  height: 100%;
+  width: 100%;
+  background: #dfefff url(ICBCImages/preview.gif) no-repeat;
+  cursor: pointer;
+}
+/*layout css --mouseout*/
+.layout_west {
+  height: 100%;
+  width: 100%;
+  background: #c3daf9 url(ICBCImages/myfeeds.gif) no-repeat;
+  background-repeat: no-repeat;
+}
+/*layout css --mouseover*/
+.layout_west_over {
+  height: 100%;
+  width: 100%;
+  background: #dfefff url(ICBCImages/myfeeds.gif) no-repeat;
+  cursor: pointer;
+}
+/**/
+.layout_splitsouth {
+  color: black;
+  border-bottom: 1px solid #98c0f4;
+  border-top: 1px solid #98c0f4;
+
+  background: #dfefff url(ICBCImages/s-handle.gif) no-repeat;
+  width: 100%;
+  background-position: top;
+}
+.layout_splitwest {
+  color: black;
+  border-left: 1px solid #98c0f4;
+  border-right: 1px solid #98c0f4;
+
+  background: #dfefff url(ICBCImages/e-handle.gif) no-repeat;
+  height: 100%;
+  background-position: left;
+}
+.x-layout-split {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  line-height: 1px;
+  font-size: 1px;
+  z-index: 3;
+  background-color: #c3daf9;
+}
+/*layout-button*/
+.x-layout-tools-button {
+  z-index: 6;
+  padding: 2px;
+  cursor: pointer;
+  /*float:right;*/
+}
+.x-layout-tools-button-over {
+  padding: 1px;
+  cursor: pointer;
+  border: 1px solid #98c0f4;
+  background-color: white;
+}
+
+/*button style*/
+.SMALLBTN_IMG_HIDDEN {
+  background-repeat: no-repeat;
+  cursor: hand;
+  background-image: url(ICBCImages/smallbtn.gif);
+  visibility: hidden;
+  vertical-align: 10%;
+  border: 0;
+  width: 28px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+.SMALLBTN_IMG {
+  background-repeat: no-repeat;
+  cursor: hand;
+  background-image: url(ICBCImages/smallbtn.gif);
+  vertical-align: 10%;
+  border: 0;
+  width: 28px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+.BIGBTN_IMG {
+  background-repeat: no-repeat;
+  cursor: hand;
+  background-image: url(ICBCImages/bigbutton.gif);
+  vertical-align: 10%;
+  border: 0;
+  width: 120px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+.BTN_IMGHIDDEN2 {
+  background-repeat: no-repeat;
+  cursor: hand;
+  visibility: hidden;
+  background-image: url(ICBCImages/button.gif);
+  vertical-align: 10%;
+  border: 0;
+  width: 56px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+.BTN_IMGHIDDEN {
+  background-repeat: no-repeat;
+  cursor: hand;
+  display: none;
+  background-image: url(ICBCImages/button.gif);
+  vertical-align: 10%;
+  border: 0;
+  width: 56px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+.BTN_IMG {
+  background-repeat: no-repeat;
+  cursor: hand;
+  background-image: url(ICBCImages/button.gif);
+  vertical-align: 10%;
+  border: 0;
+  width: 56px;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体", "Verdana";
+}
+/*button in this panel*/
+.BTN_PANEL {
+  background-image: url(ICBCImages/panel-title-light-bg.gif);
+  height: 25px;
+  text-align: center;
+}
+/*tree-div*/
+.tree_backmouseout {
+  background-color: inherit;
+}
+.tree_backmouseover {
+  background-color: Gray;
+  height: 18px;
+  text-align: left;
+}
+.tree_backclick {
+  height: 18px;
+
+  background-color: Yellow;
+}
+/*fieldset*/
+.fieldset_css {
+  border-color: White;
+  width: 100%;
+}
+/*hidden-gridview*/
+.hiddencol {
+  display: none;
+}
+
+/*legend*/
+.legend_css {
+  color: Blue;
+}
+.mouseover_left {
+  background: #f0f7fd url(ICBCImages/c4.gif) no-repeat;
+}
+.mouseover_right {
+  background: #f0f7fd url(ICBCImages/c5.gif) no-repeat;
+}
+
+textarea {
+  scrollbar-face-color: #dee7f7;
+  scrollbar-highlight-color: #ffffff;
+  scrollbar-3dlight-color: #c8d0d8;
+  scrollbar-darkshadow-color: #000000;
+  scrollbar-shadow-color: #808080;
+  scrollbar-arrow-color: #000000;
+  scrollbar-track-color: #dee7f7;
+  border: 1px solid #333333;
+}
+/*pointer*/
+.pointer_up {
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+}
+.pointer_down {
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+}
+a.SelectedMouseOver:active {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+a.SelectedMouseOver:link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.SelectedMouseOver:visited {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.SelectedMouseOver:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.SelectedMouseOut:link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+a.SelectedMouseOut:visited {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+a.SelectedMouseOut:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+a.unSelectedMouseOver:active {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.unSelectedMouseOver:link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+  background: #ffffff;
+}
+a.unSelectedMouseOver:visited {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+  background: #ffffff;
+}
+a.unSelectedMouseOver:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+a.unSelectedMouseOut:link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+a.unSelectedMouseOut:visited {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.unSelectedMouseOut:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.fontCSS {
+  vertical-align: middle;
+}
+/*DIV . 布局   ——  由于Session失效跳转页面，所以决定采用DIV布局页面*/
+/*两列布局*/
+#threeColLayout #primaryContent {
+  float: left;
+  width: 270px;
+  margin: 0 0 20px 195px;
+}
+#secondaryContent {
+  float: left;
+  width: 270px;
+  margin: 0 0 20px 15px;
+}
+#sideContent {
+  float: left;
+  width: 180px;
+  margin: 0 0 20px -750px;
+}
+/*三列布局*/
+#twoColLayout #primaryContent {
+  width: 555px;
+  float: left;
+  margin: 0 0 20px 195px;
+}
+/*流体布局*/
+#container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+#masthead {
+  position: relative;
+  background: #f7f7f4 url(ICBCImages/BGTITLE.gif);
+  height: 90px;
+}
+#content {
+  float: left;
+  width: 180px;
+}
+#sidebar {
+  float: right;
+}
+#class .loading-indicator {
+  font-size: 12px;
+  height: 18px;
+}
+
+#loading {
+  position: absolute;
+  /* 问题代码 */
+  /* left: expression((document.body.offsetWidth-this.offsetWidth)/2); */
+  /* top: exception((document.body.offsetHeight-this.offsetHeight)/2); */
+  border: 1px solid #6593cf;
+  padding: 2px;
+  background: #c3daf9;
+  width: 150px;
+  text-align: center;
+  z-index: 20001;
+}
+#loading .loading-indicator {
+  border: 1px solid #a3bad9;
+  background-color: white;
+  color: #003366;
+  font: bold 13px tahoma, arial, helvetica;
+  padding: 10px;
+  margin: 0;
+}
+.dis {
+  width: 100%;
+  background-color: #0066ff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -moz-opacity: 0.5;
+  filter: alpha(opacity=10);
+  z-index: 19999;
+  height: 100%;
+}
+.exceptionMessageHidden {
+  position: absolute;
+  display: none;
+  color: Black;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.exceptionMessageDisplay {
+  position: absolute;
+  display: block;
+  color: Black;
+  font-weight: bolder;
+  font-size: 12px;
+}
+#header {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  width: 100%;
+
+  height: 27px;
+  text-align: center;
+}
+#header2 {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  width: 100%;
+
+  height: 27px;
+  text-align: center;
+}
+/*#contain {   
+    margin-right: auto;   
+    margin-left: auto;   
+    padding: 0px;   
+    width: 100%;   
+    
+    height: 162px;   
+    text-align: center;   
+} */
+
+#toobars {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  width: 100%;
+
+  text-align: center;
+}
+#footer {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  width: 100%;
+}
+.tdss {
+  text-align: left;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+strong {
+  font-weight: bold;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/_Layouts/ICBCCPS/AdminPortal/css/mosspage.css */
+/*Moss 页面编辑的相关css Add By DJ */
+.ICBC_Hidden_CSS {
+  border: solid 1px gray;
+  display: none;
+}
+
+.ms-formfieldlabel {
+  display: none;
+}
+
+form {
+  margin: 0px auto;
+}
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/IcbcHome/owl/owl.carousel.css */
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* display none until init */
+.owl-carousel {
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+  float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+  cursor: move;
+}
+
+/* fix */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/IcbcHome/owl/owl.theme.css */
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 life-saver */
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: Alpha(Opacity=100); /*IE7 fix*/
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  background: url(point.png);
+  background-position: top right;
+  overflow: hidden;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+  background-position: top left;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
+  color: #fff;
+  padding: 2px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading {
+  min-height: 150px;
+  background: url(AjaxLoader.gif) no-repeat center center;
+}
+
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/IcbcHome/owl/owl.carousel.css */
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* display none until init */
+.owl-carousel {
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+  float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+  cursor: move;
+}
+
+/* fix */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+/* =============================================== */
+
+/* http://www.icbc.com.cn/Portal_Resources/IcbcHome/owl/owl.theme.css */
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 life-saver */
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: Alpha(Opacity=100); /*IE7 fix*/
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  background: url(point.png);
+  background-position: top right;
+  overflow: hidden;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+  background-position: top left;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
+  color: #fff;
+  padding: 2px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading {
+  min-height: 150px;
+  background: url(AjaxLoader.gif) no-repeat center center;
+}
+/* =============================================== */
+
+/* http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/exchange.css */
+
+#logo {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconQ.png")
+    no-repeat center center;
+  left: 5px;
+}
+.l i {
+  position: absolute;
+  height: 20px;
+  width: 25px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update.png")
+    no-repeat center center;
+  left: 300px;
+  cursor: pointer;
+}
+.l i.on {
+  -webkit-animation: xuanzhuan 1s infinite linear;
+  animation: xuanzhuan 1s infinite linear;
+}
+.l .Q2 em {
+  position: absolute;
+  height: 20px;
+  width: 71px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/succes_updata.png")
+    no-repeat center center;
+  left: 222px;
+  cursor: pointer;
+  display: none;
+  top: 0;
+}
+.l .Q2 em.on {
+  display: block;
+}
+
+.r i {
+  position: absolute;
+  height: 20px;
+  width: 25px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update.png")
+    no-repeat center center;
+  left: 300px;
+  cursor: pointer;
+}
+.r i.on {
+  -webkit-animation: xuanzhuan 1s infinite linear;
+  animation: xuanzhuan 1s infinite linear;
+}
+.r .Q3 em {
+  position: absolute;
+  height: 20px;
+  width: 71px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/succes_updata.png")
+    no-repeat center center;
+  left: 222px;
+  cursor: pointer;
+  display: none;
+  top: 0;
+}
+.r .Q3 em.on {
+  display: block;
+}
+@keyframes xuanzhuan {
+  0% {
+    transform: rotate(0deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+  100% {
+    transform: rotate(360deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+}
+@-webkit-keyframes xuanzhuan {
+  0% {
+    -webkit-transform: rotate(0deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+}
+/* =============================================== */
+
+/* http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/comm.css */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+address {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  font-family: "微软雅黑" !important;
+}
+a {
+  text-decoration: none;
+  color: #0d131a;
+}
+a:hover {
+  color: #d00f1b;
+}
+a:hover h4 {
+  color: #d00f1b;
+}
+a:hover h5 {
+  color: #d00f1b;
+}
+.btn-hover:hover {
+  color: #ffffff;
+}
+.btn-click:hover {
+  color: #0d131a;
+}
+.items a,
+.login_btn a {
+  width: 100%;
+  height: 100%;
+}
+.head .head_r a {
+  display: inline-block;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+}
+fieldset,
+img {
+  border: 0;
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+input:focus {
+  border: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0 auto;
+  background: #ffffff;
+}
+select option {
+  font-size: 14px;
+}
+.clearFix {
+  width: 100%;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+  clear: both;
+}
+.l {
+  float: left;
+}
+.r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.font_14 {
+  font-size: 14px;
+}
+.font_18 {
+  font-size: 18px;
+}
+.w-center {
+  min-width: 1000px;
+  margin: auto;
+  max-width: 1000px;
+}
+/*头部*/
+.head {
+  height: 34px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.head_l,
+.head_r {
+  height: 34px;
+}
+.head_l ul li {
+  float: left;
+  height: 34px;
+  line-height: 34px;
+  color: #0d131a;
+  width: 90px;
+  text-align: center;
+  position: relative;
+}
+.head_l ul li.on {
+  background-color: #c7000b;
+  color: #ffffff;
+}
+.head_l ul li a:hover {
+  color: #0d131a !important;
+}
+.head_l ul li.on a {
+  color: #ffffff;
+}
+.head_l ul li.on a:hover {
+  color: #ffffff !important;
+}
+.head_l ul li span {
+  display: none;
+  width: 12px;
+  height: 6px;
+  position: absolute;
+  top: 34px;
+  left: 39px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/head_iconS.png")
+    no-repeat center;
+}
+.head_l ul li.on span {
+  display: block;
+}
+.head_r ul li {
+  float: left;
+  height: 34px;
+  line-height: 34px;
+  color: #0d131a;
+  padding-left: 33px;
+  position: relative;
+}
+.head_r ul li.on a {
+  color: #d00f1b;
+}
+.head_r ul li span {
+  display: inline-block;
+  width: 2px;
+  height: 61px;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  color: #e5e5e5;
+}
+/*搜索*/
+.search {
+  height: 80px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.search .logo {
+  width: 314px;
+  height: 41px;
+  padding-top: 21px;
+}
+.search .logo a {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/logo.png")
+    no-repeat center;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.search_main {
+  width: 249px;
+  height: 37px;
+  padding-top: 23px;
+  padding-right: 1px;
+}
+.search_main .text {
+  width: 194px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  color: #999999;
+  font-size: 14px;
+  background: none;
+  text-indent: 15px;
+  display: inline-block;
+}
+.search_main .submit {
+  width: 53px;
+  height: 37px;
+  border: 0 solid #000000;
+  cursor: pointer;
+}
+/*导航*/
+.nav {
+  height: 45px;
+  width: 100%;
+  background-color: #c7000b;
+}
+.nav.now {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+#navBox {
+  position: relative;
+  width: 1000px;
+}
+#navBox #forClear {
+  width: 1000px;
+  height: 130px;
+}
+#navBox ul.navList {
+  position: relative;
+  left: -30px;
+  display: block;
+  margin: 0 auto;
+  width: 1012px;
+  height: 45px;
+}
+.head-v3 {
+  position: relative;
+  z-index: 100;
+  min-width: 1000px;
+  top: 0px;
+  width: 100%;
+  background-color: #c7000b;
+}
+.nav.now .head-v3 {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -501px;
+  width: 1000px;
+}
+.head-v3 .navigation-inner {
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+}
+.navigation-up {
+  height: 45px;
+}
+.navigation-up .navigation-v3 {
+  margin: 0 auto;
+  float: left;
+}
+.navigation-up .navigation-v3 ul {
+  float: left;
+  width: 1000px;
+}
+.navigation-up .navigation-v3 li {
+  float: left;
+  font: normal 18px/45px "微软雅黑";
+  color: #ffffff;
+  width: 16.8%;
+  margin-top: 1px;
+}
+.navigation-up .navigation-v3 li.on {
+  background: #af0812;
+}
+.navigation-up .navigation-v3 li h2 {
+  text-align: center;
+  font-weight: normal;
+  padding: 0;
+  margin-top: -1px;
+  text-align: center;
+}
+.navigation-up .navigation-v3 li h2 a {
+  padding: 0 25px;
+  color: #ffffff;
+  display: inline-block;
+  height: 45px;
+  font-family: "微软雅黑";
+}
+.navigation-up .navigation-v3 li h2 a:hover {
+  color: #ffffff !important;
+}
+
+.navigation-up .navigation-v3 li span {
+  position: absolute;
+  top: 18px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/shu.png")
+    no-repeat;
+  display: inline-block;
+  width: 2px;
+  height: 17px;
+}
+.navigation-down {
+  position: absolute;
+  top: 45px;
+  left: -6px;
+  z-index: 9999;
+  width: 1012px;
+}
+.nav.on .navigation-down {
+}
+.navigation-down .nav-down-menu {
+  width: 1012px;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+}
+.navigation-down .nav-down-menu .navigation-down-inner {
+  margin: auto;
+  width: 1012px;
+  position: relative;
+}
+.navigation-down .nav-down-menu dl {
+  float: left;
+  margin: 18px 80px 18px 0;
+}
+/*.navigation-down .menu-1 dl{margin:20px 80px 25px 0}*/
+/*.navigation-down .menu-1 dt{font:normal 16px "微软雅黑";color:#61789e;padding-bottom:10px;border-bottom:1px solid #61789e;margin-bottom:10px}*/
+/*.navigation-down .menu-1 dd a{color:#fff;font:normal 14px/30px "微软雅黑"}*/
+/*.navigation-down .menu-1 dd a:hover{color:#60aff6}*/
+/*.navigation-down .menu-2 dd a,.navigation-down .menu-3 dd a{color:#fff;font:normal 16px "微软雅黑"}*/
+.down-inner-main {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_bgT.png")
+    center top repeat-y;
+  height: auto;
+  width: 100%;
+}
+.down-inner-di {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_bgD.png")
+    no-repeat;
+  height: 15px;
+  width: 100%;
+}
+.down-main-sh {
+  padding: 10px 25px 19px 25px;
+}
+.down-main-sh .first_td a {
+  color: #d00f1b;
+}
+.down-main-sh th {
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+  padding-top: 14px;
+}
+.down-main-sh td {
+  width: 135px;
+  height: 53px;
+  font-size: 14px;
+}
+.down-main-sh td p {
+  cursor: pointer;
+  position: relative;
+}
+.down-main-sh td p.on {
+  color: #d00f1b;
+}
+#ck .down-main-sh td {
+  width: 135px;
+  height: 44px;
+  font-size: 14px;
+}
+#xy .down-main-sh td {
+  width: 135px;
+  height: 44px;
+  font-size: 14px;
+}
+#tz .down-main-sh td {
+  width: 135px;
+  height: 38px;
+  font-size: 14px;
+}
+.down-main-sh tr td:first-child span {
+  width: 3px;
+  height: 13px;
+  display: inline-block;
+  background-color: #c7000b;
+  float: left;
+  margin-top: 3px;
+  margin-right: 7px;
+}
+.down-main-sh tr td:first-child {
+  color: #d00f1b;
+  padding-left: 5px;
+}
+.down-main-sh tr td.td_4 {
+  border-left: 1px solid #e5e5e5;
+  padding-left: 30px;
+}
+.down-main-img {
+  width: 218px;
+  height: 265px;
+  margin-top: 45px;
+}
+.down-main-img .xian {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+  float: right;
+}
+.down-main-img .main-img {
+  width: 180px;
+  height: 265px;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.down-main-di {
+  height: 35px;
+  background-color: #e5e5e5;
+  width: 1000px;
+  margin-left: 6px;
+}
+.down-main-di li {
+  float: left;
+  color: #999999;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  left: 26px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.down-main-di p {
+  padding-left: 18px;
+}
+.down-main-di p.on {
+  color: #d00f1b;
+}
+.tanh {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_tanH.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenh {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenH.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenJY {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenJY.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenXX {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenXX.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenGS {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenGS.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenjS {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenjS.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenQi {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenQi.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenFZ {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenFZ.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenGR {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenGR.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.wenSD {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_wenSD.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.diandian {
+  height: 6px;
+  width: 6px;
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  top: 15px;
+  background: #999999;
+}
+.fenh {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_fenH.png")
+    no-repeat center center;
+  height: 35px;
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.liw {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/nav_liW.png")
+    no-repeat center center;
+  height: 35px;
+  width: 18px;
+  display: inline-block;
+  position: absolute;
+  left: -8px;
+}
+.down-inner-main td img {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+/*KV*/
+.KV {
+  height: 380px;
+  width: 100%;
+  position: relative;
+}
+.KV .items {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.KV .items-box {
+  width: 2000px;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1000px;
+}
+.KV .items-box img {
+  height: 100%;
+  display: inline-block;
+}
+/*.KV .owl-theme .owl-controls{position: absolute;margin-top: 162px;margin-left: 130px}*/
+.KV .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  /* background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/kv_owl_btn.png") no-repeat top right;*/
+  overflow: hidden;
+}
+.KV .owl-theme .owl-controls .owl-page.active span {
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  /* background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/kv_owl_btn_active.png") no-repeat top right;*/
+  overflow: hidden;
+}
+.KV .login {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/login1.png")
+    no-repeat;
+  width: 293px;
+  height: 368px;
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  margin-left: -510px;
+}
+.login_btn {
+  cursor: pointer;
+  width: 270px;
+  height: 58px;
+  position: absolute;
+  bottom: 18px;
+  left: 10px;
+}
+.login_center {
+  padding: 39px 30px 30px 26px;
+}
+.per_login {
+  position: relative;
+  cursor: pointer;
+}
+.per_login input {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_btn1.png")
+    no-repeat;
+  width: 237px;
+  height: 43px;
+  border: 0;
+}
+.per_login p {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  height: 43px;
+  line-height: 42px;
+  left: 64px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.per_login p span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png")
+    no-repeat center center;
+  height: 43px;
+  width: 11px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+.ee_login {
+  position: relative;
+  cursor: pointer;
+}
+.ee_login input {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_btn2.png")
+    no-repeat;
+  width: 237px;
+  height: 43px;
+  border: 0;
+}
+.ee_login p {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  height: 43px;
+  line-height: 43px;
+  left: 64px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.ee_login p span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png")
+    no-repeat center center;
+  height: 43px;
+  width: 11px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+.per_login_quick {
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+.ee_login_quick {
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+.login_center td {
+  font-size: 12px;
+  width: 79px;
+  text-align: center;
+  height: 22px;
+  cursor: pointer;
+}
+.login_center td.on a {
+  color: #d00f1b;
+}
+.login_center td.td_2 {
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.login_center td em {
+  width: 36px;
+  display: inline-block;
+}
+/*公告*/
+.notice {
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+}
+.notice .w-center {
+  position: relative;
+}
+.notice_lb {
+  width: 125px;
+}
+.notice_lb span {
+  width: 23px;
+  height: 21px;
+  top: 10px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/icon_lb.png")
+    no-repeat center;
+  display: block;
+  position: absolute;
+  left: 11px;
+}
+.notice_lb p {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 44px;
+  position: relative;
+  font-size: 16px;
+  color: #0d131a;
+}
+.notice_main {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  overflow: hidden;
+  height: 40px;
+}
+.notice .notice_main li {
+  height: 30px;
+  line-height: 30px;
+  padding-top: 2px;
+}
+.notice_main p {
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #0d131a;
+}
+.notice_main p.on {
+  color: #d00f1b;
+}
+.notice_more p {
+  cursor: pointer;
+  width: 64px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #0d131a;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+.notice_more a {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more.png")
+    no-repeat right;
+  cursor: pointer;
+  position: relative;
+}
+/*快速入口*/
+.fast-track {
+  height: 199px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+#serveBox {
+}
+#serveBox ul li {
+  float: left;
+  list-style: none;
+  height: 150px;
+  width: 200px;
+  z-index: 2;
+}
+#serveBox .serveBoxTop p {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 8px;
+}
+#serveBox .serveBoxTop {
+  position: relative;
+  top: 40px;
+}
+#serveBox ul li .serveBoxTop {
+  width: 202px;
+  height: 60px;
+  transition-duration: 0.2s;
+}
+#serveBox ul li .serveBoxTop img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+}
+#serveBox ul li.on .serveBoxTop img {
+  width: 68px;
+  height: 68px;
+}
+
+.serveBoxBottom {
+  width: 202px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+  top: 88px;
+}
+.serveBoxBottom p {
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  width: 202px;
+  color: #686868;
+}
+.serveBoxBottom p span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sx.png")
+    no-repeat;
+  width: 9px;
+  height: 6px;
+  display: inline-block;
+  margin-left: 2px;
+}
+.serveBoxDown {
+  display: none;
+  cursor: pointer;
+  width: 202px;
+  position: relative;
+  top: 56px;
+  z-index: 2;
+}
+.serveBoxDown img {
+  width: 202px;
+}
+.serveBoxDown dl {
+  width: 200px;
+  height: 203px;
+  position: absolute;
+  top: 5px;
+}
+.serveBoxDown dl dd {
+  width: 192px;
+  height: 32.4px;
+  line-height: 32.4px;
+  float: none;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+.serveBoxDown dl dd:hover {
+  background: #f2f2f2;
+}
+#serveBox .serveList img {
+  cursor: pointer;
+  display: none;
+}
+/*投资理财*/
+.action_T {
+  height: 681px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.action_T .action_T_tit {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_T_tit.png")
+    no-repeat;
+  width: 368px;
+  height: 59px;
+  margin: 0 auto;
+  position: relative;
+  top: -12px;
+  z-index: 1;
+}
+.action_T_text {
+  padding-top: 27px;
+}
+.action_T_text span {
+  width: 6px;
+  height: 24px;
+  display: block;
+  background-color: #ff6200;
+  position: absolute;
+}
+.action_T_text p {
+  padding-left: 14px;
+  font-size: 24px;
+  color: #0d131a;
+  height: 24px;
+  line-height: 24px;
+}
+.action_T_di {
+  width: 100%;
+  height: 7px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png")
+    center top repeat-x;
+  position: relative;
+  top: 8px;
+}
+.hide {
+  display: none;
+}
+.tzlc {
+  width: 1000px;
+  height: auto;
+  position: relative;
+  top: 25px;
+  left: 0;
+}
+#tab_t {
+  width: 663px;
+  height: 45px;
+  border-bottom: 1px #e5e5e5 solid;
+}
+#tab_t li {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  width: 105px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #0d131a;
+}
+#tab_t li.on p {
+  border-bottom: 3px #ff6200 solid;
+}
+.tab_c {
+  width: 100%;
+}
+.tzlc1 {
+  width: 100%;
+  height: 460px;
+}
+.tzlc2 {
+  width: 100%;
+  height: 460px;
+}
+.tzlc3 {
+  width: 100%;
+  height: 460px;
+}
+.tzlc4 {
+  width: 100%;
+  height: 460px;
+}
+.tzlc5 {
+  width: 100%;
+  height: 460px;
+}
+.tzlc1_mainL {
+  width: 675px;
+  height: 100%;
+}
+.tzlc1_mainL .top {
+  width: 663px;
+  height: 102px;
+}
+.tzlc1_mainL .top_main {
+  padding-top: 38px;
+  height: 30px;
+}
+.top_main p {
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  padding-left: 108px;
+  font-size: 16px;
+  color: #0d131a;
+  height: 30px;
+  line-height: 30px;
+}
+.top_main .kuoD {
+  position: absolute;
+  height: 29px;
+  width: 98px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconK.png")
+    no-repeat center;
+  left: 5px;
+}
+.top_main .kuoD2 {
+  position: absolute;
+  height: 29px;
+  width: 98px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconK2.png")
+    no-repeat center;
+  left: 5px;
+}
+.top_main .more,
+.tzlc_title .more {
+  cursor: pointer;
+  width: 64px;
+  height: 23px;
+  position: relative;
+  top: 0px;
+  font-size: 14px;
+  color: #474747;
+  float: right;
+}
+.top_main .more a,
+.tzlc_title .more a {
+  display: inline-block;
+  width: 60px;
+  height: 23px;
+  line-height: 23px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more_2.png")
+    no-repeat right;
+  position: absolute;
+  cursor: pointer;
+}
+.top_main_two {
+  padding-top: 33px;
+  height: 30px;
+  width: 321px;
+  position: relative;
+}
+.top_main_two .JJselect {
+  width: 277px;
+  height: 28px;
+  border: 1px solid #e5e5e5;
+  text-indent: 15px;
+  color: #999;
+  font-size: 14px;
+}
+.top_main_two .JJselect.on {
+  color: #0d131a;
+}
+.top_main_two .JJbtn {
+  cursor: pointer;
+  width: 42px;
+  height: 30px;
+  border: none;
+}
+.top_main_two .select_main {
+  position: absolute;
+  left: 186px;
+  top: 34px;
+}
+.top_main_two .select_main span {
+  display: block;
+  width: 92px;
+  height: 28px;
+  font-size: 14px;
+  text-indent: 10px;
+  line-height: 28px;
+  background: #f2f2f2
+    url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconX_bf.png")
+    no-repeat right top;
+  color: #0d131a;
+}
+.top_main_two .select_main select {
+  width: 92px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  border: none;
+  outline: none;
+}
+.tzlc1_mainL .top ul {
+  padding-top: 33px;
+}
+.tzlc1_mainL .top li {
+  float: left;
+  margin-left: 10px;
+  width: 152px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+.tzlc1_mainL select {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  border: none;
+  outline: none;
+}
+.tzlc1_mainL .top li span {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: #999999;
+}
+.tzlc1_mainL .top li.on span {
+  color: #0d131a;
+}
+.tzlc1_mainL .top li .f {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 28px;
+  font-size: 14px;
+  line-height: 28px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconF.png")
+    no-repeat right top;
+  color: #999999;
+  text-indent: 0px;
+}
+.tzlc1_mainL .top li .f input {
+  text-indent: 10px;
+  width: 75%;
+  height: 28px;
+  border: none;
+  color: #999999;
+}
+.tzlc1_mainL .top li.on .f input {
+  height: 28px;
+  border: none;
+  color: #0d131a;
+}
+.tzlc1_a {
+  padding-top: 13px;
+}
+.tzlc1_a a {
+  font-size: 14px;
+  color: #0d131a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tzlc1_a a.on {
+  color: #d00f1b;
+}
+.tzlc1_mainL .tzlc_footer {
+  width: 663px;
+  height: 356px;
+}
+.tzlc1_mainL .tzlc_footer .l,
+.tzlc1_mainL .tzlc_footer .r {
+  width: 325px;
+}
+.tzlc_title p {
+  width: 100%;
+  position: relative;
+  padding-left: 32px;
+  font-size: 16px;
+  color: #0d131a;
+  height: 20px;
+  line-height: 20px;
+}
+.tzlc_title.S {
+  height: 20px;
+}
+.tzlc_main .dw {
+  position: absolute;
+  right: 30px;
+  top: 218px;
+}
+.tzlc1_mainL .Z span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconZ.png")
+    no-repeat center center;
+  left: 5px;
+}
+.tzlc1_mainL .E span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconE.png")
+    no-repeat center center;
+  left: 5px;
+}
+.tzlc1_mainL .Q span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconQ.png")
+    no-repeat center center;
+  left: 5px;
+}
+.tzlc_title .roata_update {
+  position: absolute;
+  height: 20px;
+  width: 25px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update.png")
+    no-repeat center center;
+  left: 300px;
+  cursor: pointer;
+}
+.tzlc_title .roata_update.on {
+  -ms-animation: xuanzhuan 1s infinite linear;
+  -webkit-animation: xuanzhuan 1s infinite linear;
+  animation: xuanzhuan 1s infinite linear;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+    no-repeat center center;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+    no-repeat center center\9;
+}
+.tzlc_title .succes_updata {
+  position: absolute;
+  height: 20px;
+  width: 71px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/succes_updata.png")
+    no-repeat center center;
+  left: -80px;
+  cursor: pointer;
+  display: none;
+  top: 0;
+}
+.tzlc_title .succes_updata.on {
+  display: block;
+}
+@keyframes xuanzhuan {
+  0% {
+    transform: rotate(0deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+  100% {
+    transform: rotate(360deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+}
+@-webkit-keyframes xuanzhuan {
+  0% {
+    -webkit-transform: rotate(0deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/fund_update2.png")
+      no-repeat center center;
+  }
+}
+.tzlc1_mainL .Q2 span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconQ2.png")
+    no-repeat center center;
+  left: 5px;
+}
+
+.tzlc1_mainL .Q3 span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconQ3.png")
+    no-repeat center center;
+  left: 5px;
+}
+.tzlc1_mainL .B span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconB.png")
+    no-repeat center center;
+  left: 5px;
+}
+.tzlc1_mainL .S span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconS.png")
+    no-repeat center;
+  left: 5px;
+}
+.tzlc1_mainL .H span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconH.png")
+    no-repeat center;
+  left: 5px;
+}
+.tzlc1_mainL .Y span {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_iconY.png")
+    no-repeat center;
+  left: 5px;
+}
+.tzlc_main {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  top: 8px;
+  height: 328px;
+}
+.tzlc_main dl {
+  padding-top: 26px;
+}
+.tzlc_main dd {
+  padding-bottom: 20px;
+}
+.tzlc_main dd .tzlc_btn {
+  width: 180px;
+  height: 38px;
+  line-height: 38px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #ff6200;
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  cursor: pointer;
+}
+.tzlc_main h1,
+.tzlc_main h2,
+.tzlc_main p,
+.tzlc_main h4 {
+  text-align: center;
+}
+.tzlc_main h4,
+.tzlc_main h5 {
+  font-size: 16px;
+  color: #0d131a;
+}
+.tzlc_main h5 {
+  padding-top: 15px;
+  position: relative;
+  z-index: 2;
+}
+.tzlc_main h1 {
+  font-size: 14px;
+  color: #0d131a;
+}
+.tzlc_main p {
+  font-size: 14px;
+  color: #999999;
+}
+.tzlc_main h2 {
+  font-size: 28px;
+  color: #ff6200;
+}
+.tzlc_main li {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.tzlc_main li.last {
+  border-bottom: 0;
+}
+.tzlc_main .tzlc_text {
+  height: 108.8px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.tzlc_main .tzlc_text:hover h1 {
+  color: #d00f1b;
+}
+.tzlc_footer .r li .tzlc_text_btn {
+  z-index: 2;
+  width: 75px;
+  height: 25px;
+  line-height: 25px;
+  background: #f2f2f2;
+  color: #0d131a;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.tzlc_footer .r li .tzlc_text_btn a {
+  display: block;
+}
+.tzlc_footer .r li.on .tzlc_text_btn {
+  color: white;
+  background: #ff6200;
+}
+.tzlc_footer .r li.on .tzlc_text_btn a {
+  color: white !important;
+}
+.tzlc_footer .r li.on h5 {
+  color: #d00f1b;
+}
+.tzlc_text_hover {
+  width: 347px;
+  height: 132px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/select_kuang.png")
+    no-repeat;
+  position: absolute;
+  top: -9px;
+  left: -11px;
+  opacity: 0;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  display: none\9;
+}
+.tzlc_footer .r li.on .tzlc_text_hover {
+  opacity: 1;
+  display: block\9;
+}
+.tzlc_main .btn_k {
+  padding: 20px 20px 10px 20px;
+  position: relative;
+}
+.tzlc_main .btn_k .l,
+.tzlc_main .btn_k .r,
+.tzlc_main .btn_k .c {
+  cursor: pointer;
+  width: 130px;
+  height: 38px;
+  line-height: 38px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #ff6200;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.tzlc_main .btn_k .l a,
+.tzlc_main .btn_k .r a,
+.tzlc_main .btn_k .c a {
+  color: #ffffff;
+  display: block;
+}
+.tzlc_main .btn_k .c {
+  width: 180px;
+}
+.tzlc_main .btn_k .others {
+  position: absolute;
+  left: 170px;
+  top: -7px;
+}
+.tzlc_main .btn_k .others p {
+  color: #999999;
+  font-size: 12px;
+}
+.tzlc_main .btn_k .updata_time {
+  margin: 50px auto;
+}
+.tzlc_main .ul_two li .tzlc_text {
+  height: 163.3px;
+}
+.tzlc_text .proudect {
+  position: relative;
+  padding-top: 30px;
+}
+.tzlc_text .proudect .proudect_more {
+  position: absolute;
+  top: 26px;
+  left: 140px;
+}
+.tzlc_footer .r li .proudect_btn {
+  width: 75px;
+  height: 25px;
+  line-height: 25px;
+  background: #f2f2f2;
+  color: #0d131a;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 106px;
+  left: 140px;
+  text-align: center;
+  cursor: pointer;
+}
+.tzlc_footer .r li .proudect_btn a {
+  display: block;
+}
+.tzlc_footer .r li.on .proudect_btn {
+  color: white;
+  background: #ff6200;
+}
+.tzlc_footer .r li.on .proudect_btn a {
+  color: white;
+}
+.proudect .proudect_more h1 {
+  position: relative;
+  color: #0d131a;
+  font-size: 16px;
+}
+.proudect .proudect_more p {
+  position: relative;
+  color: #0d131a;
+  font-size: 14px;
+  top: 5px;
+}
+.proudect .proudect_more span {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #ff6200;
+  left: -8px;
+  top: 8px;
+}
+.tzlc_text h1,
+.tzlc_text h2,
+.tzlc_text p {
+  text-align: left;
+}
+.tzlc_text.ot h5 {
+  padding-top: 24px;
+}
+.tzlc_text h1 {
+  padding-top: 15px;
+}
+.tzlc_text h2 {
+  font-size: 16px;
+}
+.tzlc_main table {
+  width: 100%;
+}
+.tzlc_main td {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 14px;
+  color: #0d131a;
+  position: relative;
+}
+.updata_time p {
+  font-size: 14px;
+  color: #999999;
+}
+.tzlc_main.s td {
+  color: #ff6200;
+}
+.tzlc_main.t td {
+  color: #ff6200;
+}
+.tzlc_main .qizhi {
+  padding-left: 20px;
+}
+.tzlc_main .zhang {
+  color: #ff6200;
+  text-align: left;
+  padding-left: 10px;
+}
+.tzlc_main .ys {
+  padding-left: 10px;
+}
+.tzlc_main .zhang span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_zhang.png")
+    no-repeat;
+  width: 11px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 60px;
+}
+.tzlc_main .dei {
+  color: #01b300;
+  text-align: left;
+  padding-left: 13px;
+}
+.tzlc_main .dei span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_dei.png")
+    no-repeat;
+  width: 11px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 60px;
+}
+.tzlc_main .dei {
+  color: #01b300;
+}
+.top_main_btn {
+  width: 280px;
+  padding-top: 33px;
+}
+.top_main_btn .btn_ul {
+  padding-top: 0 !important;
+}
+.top_main_btn .btn_ul li {
+  width: auto;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #f2f2f2;
+  border: none;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 14px;
+}
+.top_main_btn .btn_ul li:first-child {
+  background: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.top_main_btn .btn_ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_img5_l.jpg")
+    no-repeat center;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main ul {
+  width: 100%;
+  padding: 24px 15px 0 15px;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main li {
+  float: left;
+  width: 44%;
+  height: 30px;
+  line-height: 30px;
+  background: white;
+  border: none;
+  margin-right: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main li a {
+  display: block;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main li.on {
+  background: #ff6200;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main li.on a {
+  background: #ff6200;
+  color: white;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main li span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_jt.png")
+    no-repeat center;
+  width: 6px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+.tzlc5 .tzlc1_mainL .l .tzlc_main li.on span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/tzlc_jt_2.png")
+    no-repeat center;
+  width: 6px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+.tzlc_footer .r li .tzlc_thing {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+}
+.tzlc1_mainR {
+  width: 325px;
+  height: 100%;
+}
+.action_T .items {
+  width: 100%;
+  height: 460px;
+  position: relative;
+  cursor: pointer;
+}
+.action_T .items img {
+  width: 100%;
+  height: 100%;
+}
+
+.action_T .owl-theme .owl-controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 200px;
+  margin-left: -100px;
+}
+.action_T .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 57px;
+  height: 4px;
+  margin: 5px 7px;
+  background: #ffffff;
+  overflow: hidden;
+}
+.action_T .owl-theme .owl-controls .owl-page.active span {
+  width: 57px;
+  height: 4px;
+  margin: 5px 7px;
+  background: #ff6200;
+  overflow: hidden;
+}
+.action_T .notice_main {
+  position: absolute;
+  left: 120px;
+  top: 84px;
+  overflow: hidden;
+  height: 30px;
+}
+.action_T .notice_main p {
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #0d131a;
+  padding-left: 0px !important;
+}
+.action_T .notice_main p.on {
+  color: #d00f1b;
+}
+.action_T .notice_main ul {
+  padding-top: 0px !important;
+}
+.action_T .notice_main li {
+  height: 30px;
+  line-height: 30px;
+  float: none !important;
+  margin-left: 0 !important;
+  width: 100% !important;
+  border: none !important;
+  position: inherit !important;
+}
+/*便利金融*/
+.action_B {
+  height: 613px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.action_B_text span {
+  width: 6px;
+  height: 24px;
+  display: block;
+  background-color: #ffae00;
+  position: absolute;
+}
+.action_B_text p {
+  padding-left: 14px;
+  font-size: 24px;
+  color: #0d131a;
+  height: 23px;
+  line-height: 24px;
+}
+.bljr {
+  width: 1000px;
+  height: 520px;
+  position: relative;
+  left: 8px;
+}
+.boder_k {
+  border-bottom: 1px #e5e5e5 solid;
+}
+#tab_tt {
+  width: 730px;
+  margin-top: 15px;
+  height: 45px;
+}
+#tab_tt li {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  width: 135px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 10px;
+}
+#tab_tt li.on p {
+  border-bottom: 3px #ffae00 solid;
+}
+#tab_ct {
+  width: 100%;
+  padding-top: 2px;
+}
+.bljr1 {
+  width: 100%;
+  height: 460px;
+}
+.bljr2 {
+  width: 100%;
+  height: 460px;
+}
+.bljr3 {
+  width: 100%;
+  height: 460px;
+}
+.bljr4 {
+  width: 100%;
+  height: 460px;
+}
+.bljr5 {
+  width: 100%;
+  height: 460px;
+}
+.bljr1 .bljr_mainL {
+  width: 667px;
+  height: 460px;
+  overflow: hidden;
+}
+.bljr1 .bljr_mainR {
+  width: 333px;
+  height: 437px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.bljr1 .bljr_mainR ul {
+  width: 100%;
+  height: 100%;
+}
+.bljr1 .bljr_mainR li {
+  width: 100%;
+  height: 50%;
+  float: left;
+  position: relative;
+}
+.bljr1 .bljr_mainR .bljr_img {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 100%;
+}
+.bljr1 .bljr_mainR .bljr_img.border_no {
+  border-bottom: none;
+}
+.bljr_mainL:hover h1 {
+  color: #d00f1b;
+}
+.bljr2 .bljr_mainL,
+.bljr3 .bljr_mainL,
+.bljr4 .bljr_mainL,
+.bljr5 .bljr_mainL {
+  width: 667px;
+  height: 460px;
+  overflow: hidden;
+}
+.bljr2 .bljr_mainR,
+.bljr3 .bljr_mainR,
+.bljr4 .bljr_mainR,
+.bljr5 .bljr_mainR {
+  width: 333px;
+  height: 437px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.bljr2 .bljr_mainR ul,
+.bljr3 .bljr_mainR ul,
+.bljr4 .bljr_mainR ul,
+.bljr5 .bljr_mainR ul {
+  width: 100%;
+  height: 100%;
+}
+.bljr2 .bljr_mainR li,
+.bljr3 .bljr_mainR li,
+.bljr4 .bljr_mainR li,
+.bljr5 .bljr_mainR li {
+  border-left: 1px solid #e5e5e5;
+  width: 100%;
+  height: 219px;
+  float: left;
+  position: relative;
+}
+.bljr2 .bljr_mainR .bljr_img,
+.bljr3 .bljr_mainR .bljr_img,
+.bljr4 .bljr_mainR .bljr_img,
+.bljr5 .bljr_mainR .bljr_img {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 99.6%;
+}
+#tab_ct .bljr_mainR .bljr_proudect {
+  border: none;
+  cursor: pointer;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(0.8, 0.8);
+  -moz-transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
+}
+#tab_ct li.on .bljr_proudect {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  border: none;
+  width: 115px\9;
+  height: 119px\9;
+}
+#tab_ct .bljr_btn {
+  cursor: pointer;
+  width: 75px;
+  height: 25px;
+  background-color: #ff6200;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+#tab_ct .bljr_btn a {
+  color: white !important;
+}
+#tab_ct li.on h1 {
+  color: #d00f1b;
+}
+.bljr_mainL h1,
+.bljr_img h1 {
+  font-size: 18px;
+  color: #0d131a;
+  line-height: 2;
+}
+.bljr_mainL p,
+.bljr_img p {
+  font-size: 16px;
+  color: #0d131a;
+  line-height: 1.5;
+}
+.bljr_mainL dl,
+.bljr_img dl {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.bljr_mainL span,
+.bljr_img span {
+  width: 6px;
+  height: 6px;
+  background: #ff6200;
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+  top: -4px;
+}
+.bljr_mainL .icon,
+.bljr_img .icon {
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+.bljr_mainL dl {
+  position: absolute;
+  top: 120px;
+  left: 12px;
+  z-index: 2;
+}
+/*优惠生活*/
+.action_Y {
+  height: 793px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.action_Y .action_Y_tit {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_Y_tit.png")
+    no-repeat;
+  width: 368px;
+  height: 59px;
+  margin: 0 auto;
+  position: relative;
+  top: -12px;
+  z-index: 1;
+}
+.action_Y_text {
+  padding-top: 27px;
+  height: 24px;
+}
+.action_Y_text span {
+  width: 6px;
+  height: 24px;
+  display: block;
+  background-color: #c7000b;
+  position: absolute;
+}
+.action_Y_text p {
+  padding-left: 14px;
+  font-size: 24px;
+  color: #0d131a;
+  height: 24px;
+  line-height: 24px;
+}
+.action_Y_text .more {
+  width: 64px;
+  height: 23px;
+  position: relative;
+  top: -20px;
+  font-size: 14px;
+  color: #0d131a;
+  cursor: pointer;
+}
+.action_Y_text .more a {
+  cursor: pointer;
+  display: inline-block;
+  width: 62px;
+  height: 23px;
+  line-height: 23px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more.png")
+    no-repeat right;
+}
+.action_Y_di {
+  width: 100%;
+  height: 7px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png")
+    center top repeat-x;
+  position: relative;
+  top: 8px;
+}
+.action_Y_main {
+  width: 101.5%;
+  height: 110px;
+  padding-top: 30px;
+}
+.action_Y_main .l {
+  width: 44%;
+  height: 110px;
+}
+.action_Y_main .l dd {
+  position: relative;
+}
+.action_Y_main .l p {
+  cursor: pointer;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #0d131a;
+  line-height: 20px;
+  height: 44px;
+}
+.action_Y_main .l p.on {
+  color: #d00f1b;
+}
+.action_Y_main .l span {
+  width: 6px;
+  height: 6px;
+  background: #c7000b;
+  display: block;
+  position: absolute;
+  top: 6px;
+}
+#action_Y_r {
+  width: 54.8%;
+  height: 110px;
+}
+#action_Y_r li {
+  float: left;
+  margin-right: 8px;
+  cursor: pointer;
+  position: relative;
+}
+#action_Y_r.scale {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#action_Y_r .scale.on {
+  -moz-transform: scale3d(0.98, 0.98, 1);
+  -ms-transform: scale3d(0.98, 0.98, 1);
+  -webkit-transform: scale3d(0.98, 0.98, 1);
+  transform: scale3d(0.98, 0.98, 1);
+}
+.kv_more {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  display: none\9;
+  cursor: pointer;
+}
+#action_Y_r li.on .kv_more.on {
+  opacity: 1;
+  transition-duration: 0.4s;
+  display: block\9;
+}
+.kv_more_btn {
+  position: absolute;
+  bottom: 32px;
+  left: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#action_Y_r li.on .kv_more.on .kv_more_btn {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.action_Y_more {
+  width: 100%;
+  height: 460px;
+  padding-top: 40px;
+}
+.action_Y_more .l {
+  width: 67.5%;
+  height: 460px;
+}
+.action_Y_more .l li {
+  cursor: pointer;
+  float: left;
+  width: 224px;
+  background: white;
+  height: 229px;
+  border-left: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.action_Y_more .l li h1 {
+  font-size: 18px;
+  color: #0d131a;
+  text-align: left;
+  padding-left: 16px;
+  padding-right: 22px;
+  padding-top: 30px;
+}
+.action_Y_more .l li p {
+  font-size: 16px;
+  color: #d00f1b;
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 0px;
+}
+.action_Y_more .l li:first-child {
+  float: left;
+  width: 449px;
+  border-top: 1px solid #e5e5e5;
+}
+.action_Y_more .l li .action_Y_proudect {
+  position: absolute;
+  bottom: 20px;
+  left: 48px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.action_Y_more .l li.on .action_Y_proudect {
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  transform: translateX(-10px);
+  left: 35px\9;
+}
+.action_Y_more .l li.on h1 {
+  color: #d00f1b;
+}
+.action_Y_more .l .items {
+  width: 100%;
+  height: 229px;
+  position: relative;
+}
+.action_Y_more .l .items img {
+  width: 100%;
+  height: 100%;
+}
+/*.action_Y_more .l  .owl-theme .owl-controls{position: absolute;top:50%;left: 50%;margin-top: 94px;margin-left:-114px}*/
+.action_Y_more .l .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 5px 7px;
+  /*   background: #e5e5e5;*/
+  overflow: hidden;
+}
+.action_Y_more .l .owl-theme .owl-controls .owl-page.active span {
+  width: 50px;
+  height: 4px;
+  margin: 5px 7px;
+  /* background: #c7000b;*/
+  overflow: hidden;
+}
+.action_Y_more .r {
+  width: 32.4%;
+  height: 460px;
+  border-top: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.action_Y_more .r .items {
+  width: 100%;
+  height: 460px;
+  position: relative;
+}
+.action_Y_more .r .items img {
+  width: 100%;
+  height: 100%;
+}
+/*.action_Y_more .r  .owl-theme .owl-controls{position: absolute;top:50%;left: 50%;margin-top: 200px;margin-left:-114px}*/
+.action_Y_more .r .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  /*margin: 5px 7px;*/
+  /*background: #e5e5e5;*/
+  overflow: hidden;
+}
+/*.action_Y_more .owl-theme .owl-controls .owl-page.active span{
+    width: 50px;
+    height: 4px;
+    margin: 5px 7px;
+    overflow: hidden;}*/
+/*工行风貌and客户服务*/
+.action_M {
+  height: 382px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.action_M .l {
+  width: 474px;
+}
+.action_M .l .action_M_main {
+  width: 100%;
+  height: 165px;
+}
+#texttBox {
+  width: 100%;
+  top: 30px;
+  left: 7px;
+  position: relative;
+}
+#texttBox dl em {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #c7000b;
+  position: absolute;
+  top: 13px;
+}
+#texttBox dd h1 {
+  font-size: 16px;
+  color: #0d131a;
+  line-height: 34px;
+  cursor: pointer;
+  padding-left: 14px;
+}
+#texttBox dd h1:hover {
+  color: #d00f1b;
+}
+#texttBox dd {
+  position: relative;
+}
+#texttBox dd p {
+  font-size: 14px;
+  color: #686868;
+  line-height: 28px;
+  padding-left: 18px;
+}
+#texttBox dd span {
+  color: #686868;
+  cursor: pointer;
+}
+#texttBox dd span:hover {
+  color: #d00f1b;
+}
+/*#texttBox dd span.on{color: #d00f1b;}*/
+.action_M .l .action_M_other {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 30px;
+  position: relative;
+}
+.action_M .l .action_M_other table {
+  position: relative;
+  top: 46px;
+}
+.action_M .l .action_M_other span {
+  width: 4px;
+  height: 16px;
+  display: block;
+  background-color: #d00f1b;
+  position: absolute;
+  top: 5px;
+}
+.action_M .l .action_M_other p {
+  cursor: pointer;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #0d131a;
+  height: 23px;
+  line-height: 24px;
+}
+.action_M .l .action_M_other p.on {
+  color: #d00f1b;
+}
+.action_M .r .action_M_main {
+  position: relative;
+  top: 17px;
+  height: 165px;
+}
+.action_M .r .action_M_main ul li {
+  float: left;
+  width: 101px;
+  height: 135px;
+  margin-right: 25px;
+}
+.action_M .r .action_M_main ul li:first-child {
+  float: left;
+  width: 213px;
+}
+.action_M .r .action_M_main ul li:first-child img {
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+}
+.action_M .r .action_M_main ul li:first-child p {
+  padding-top: 6px;
+}
+.action_M .r .action_M_main ul li:first-child p:hover {
+  color: #d00f1b;
+}
+.action_M .r .action_M_main p {
+  text-align: center;
+  font-size: 14px;
+  color: #0d131a;
+  padding-top: 7px;
+}
+.action_M .r .action_M_other {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 30px;
+  position: relative;
+}
+.action_M .r .action_M_other span {
+  display: block;
+  position: absolute;
+  top: 5px;
+}
+.action_M .r .action_M_other td {
+  width: 55px;
+  cursor: pointer;
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+.action_M .r .action_M_other td:hover p {
+  color: #d00f1b;
+}
+.action_M .r .action_M_other img {
+  margin: 30px auto 10px auto;
+}
+.action_M .r .icon_hover {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 61px;
+}
+.action_M .r td.on .icon_hover {
+  display: block;
+}
+.action_M .r .action_M_other p {
+  font-size: 14px;
+  color: #0d131a;
+  height: 23px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.action_M .r {
+  width: 468px;
+}
+.action_M_text {
+  padding-top: 37px;
+  height: 24px;
+}
+.action_M_text span {
+  width: 6px;
+  height: 24px;
+  display: block;
+  background-color: #c7000b;
+  position: absolute;
+}
+.action_M_text p {
+  padding-left: 14px;
+  font-size: 24px;
+  color: #0d131a;
+  height: 26px;
+  line-height: 26px;
+}
+.action_M_text .more {
+  width: 64px;
+  height: 23px;
+  position: relative;
+  top: -20px;
+  font-size: 14px;
+  color: #0d131a;
+  cursor: pointer;
+}
+.action_M_text .more a {
+  display: inline-block;
+  width: 60px;
+  height: 23px;
+  line-height: 23px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more.png")
+    no-repeat right;
+}
+.action_M_text .more_h a {
+  width: 60px;
+  height: 23px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more_2.png")
+    no-repeat right;
+}
+.action_M_di {
+  width: 100%;
+  height: 7px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png")
+    center top repeat-x;
+  position: relative;
+  top: 8px;
+}
+/*尾部*/
+.footer {
+  height: 61px;
+  width: 100%;
+  background-color: #474747;
+}
+.footer_l,
+.footer_r {
+  height: 45px;
+  position: relative;
+}
+.footer_l ul li {
+  float: left;
+  height: 61px;
+  line-height: 61px;
+  color: #999999;
+  padding-right: 30px;
+  position: relative;
+}
+.footer_l ul li a {
+  color: #999999;
+}
+.footer_l ul li a:hover {
+  color: #999999 !important;
+}
+.footer_r ul li {
+  float: left;
+  height: 61px;
+  line-height: 61px;
+  color: #999999;
+  padding-right: 12px;
+  position: relative;
+}
+.footer_l ul li span,
+.footer_r ul li span {
+  display: inline-block;
+  width: 2px;
+  height: 61px;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.footer_l .footer_iconX {
+  width: 9px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/footer_iconX.png")
+    no-repeat center center;
+  cursor: pointer;
+}
+.footer_r .footer_iconR {
+  width: 100px;
+  height: 37px;
+  padding-top: 11px;
+}
+.footer_l li dl {
+  position: absolute;
+  bottom: 20px;
+  width: 186px;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  height: 300px;
+  overflow-y: scroll;
+  z-index: 2;
+  display: none;
+}
+.footer_l li.on dl {
+  display: block;
+}
+.footer_l dl dd {
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #0d131a;
+  display: none;
+}
+.footer_l dl dd:hover {
+  background: #f2f2f2;
+}
+.footer_l li.on dl dd {
+  display: block;
+}
+/*侧栏*/
+#sideBox {
+  position: fixed;
+  bottom: 36px;
+  right: 0;
+  min-height: 280px;
+  z-index: 1000;
+}
+#sideBox > ul > {
+  list-style: none outside none;
+}
+#sideBox > ul > li {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  list-style: none outside none;
+  display: table;
+  zoom: 1;
+  position: relative;
+}
+#sideBox > ul > li > a {
+  overflow: hidden;
+  display: block;
+  height: 35px;
+  position: relative;
+  width: 35px;
+}
+.helper-pop {
+  width: 0;
+  height: 284px;
+  position: absolute;
+  top: 50%;
+  margin-top: -105px;
+  right: 35px;
+  overflow: hidden;
+}
+.help_main {
+  padding: 105px 16px 16px 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.help_main textarea {
+  border: 1px solid #e5e5e5;
+  width: 252px;
+  height: 53px;
+  background: white;
+}
+.help_main p {
+  color: #a7a7a7;
+  font-size: 14px;
+  line-height: 2;
+}
+.help_main a {
+  width: 86px;
+  height: 30px;
+  position: relative;
+  top: -24px;
+  right: -172px;
+  display: inline-block;
+}
+.erweima-box {
+  width: 0;
+  height: 113px;
+  position: absolute;
+  right: 35px;
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_bg1.png")
+    no-repeat center center;
+  top: 45%;
+  margin-top: -55px;
+  overflow: hidden;
+}
+.erweima-box.b2 {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_bg2.png")
+    no-repeat center center;
+}
+.erweima-box ul {
+  margin: 5px;
+}
+.erweima-box li {
+  float: left;
+  margin: 5px;
+}
+.erweima-box li img {
+  width: 83px;
+  height: 83px;
+  overflow: hidden;
+}
+.erweima-box li p {
+  padding-top: 0px;
+  font-size: 12px;
+  text-align: center;
+  color: #464646;
+}
+.erweima-box.b2 {
+  margin-top: -95px;
+}
+.em1 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+li:hover .em1 {
+  display: block;
+}
+.em2 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+li:hover .em2 {
+  display: block;
+}
+.em2_1 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+li:hover .em2_1 {
+  display: block;
+}
+.em3 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+li:hover .em3 {
+  display: block;
+}
+/*公共样式部分*/
+/*面包屑*/
+.crumbs {
+  width: auto;
+  height: 41px;
+  background: #f2f2f2;
+  overflow: hidden;
+  clear: both;
+}
+.crumbs .cMain {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+.crumbs .cMain p {
+  font: 14px/41px "微软雅黑";
+  color: #0d131a;
+  text-align: left;
+  padding: 0 8px;
+}
+.crumbs .cMain a {
+  color: #0d131a;
+}
+.crumbs .cMain a span {
+  color: #0d131a;
+}
+.crumbs .cMain a:hover,
+.crumbs .cMain a:hover span {
+  color: #d00f1b;
+}
+/*星级*/
+.star {
+  padding-top: 11px;
+  font-size: 12px;
+}
+.star img {
+  display: inline-block;
+}
+/*分页样式*/
+.page {
+  padding: 20px 10px 40px;
+  text-align: right;
+  overflow: hidden;
+}
+.page .pMain {
+  display: inline-block;
+  *float: right;
+}
+.page a,
+.page input,
+.page em {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  font: 14px/38px "微软雅黑";
+  text-align: center;
+  color: #0d131a;
+  display: block;
+  float: left;
+}
+.page a.prev,
+.page a.next {
+  width: 78px;
+  background: #f2f2f2;
+}
+.page a.go {
+  width: 58px;
+  background: #f2f2f2;
+}
+.page span {
+  margin: 0 20px;
+  display: inline-block;
+  float: left;
+  font: 14px/38px "微软雅黑";
+  text-align: center;
+  color: #0d131a;
+}
+.page input {
+  margin: -10px 5px;
+  float: none;
+  display: inline-block;
+  outline: none;
+}
+.page input:focus {
+  border: 1px solid #e5e5e5;
+}
+.page a.cur,
+.page em {
+  border: 0;
+  cursor: default;
+}
+.page a.cur {
+  color: #d00f1b;
+}
+.page a:hover {
+  background: #f1f1f1;
+}
+.page a.cur:hover {
+  background: none;
+  color: #d00f1b;
+}
+/*底部距离*/
+.mb5 {
+  margin-bottom: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb25 {
+  margin-bottom: 25px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb35 {
+  margin-bottom: 35px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb45 {
+  margin-bottom: 45px;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
+.pt5 {
+  padding-top: 5px;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.pt15 {
+  padding-top: 15px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pt25 {
+  padding-top: 25px;
+}
+.pt30 {
+  padding-top: 30px;
+}
+.pt35 {
+  padding-top: 35px;
+}
+.pt40 {
+  padding-top: 40px;
+}
+.pt45 {
+  padding-top: 45px;
+}
+.pt50 {
+  padding-top: 50px;
+}
+/* =============================================== */
+
+/* http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/owlcarousel.css */
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.24
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/* CSS3 Transitions */
+
+.owl-origin {
+	-webkit-perspective: 1200px;
+	-webkit-perspective-origin-x : 50%;
+	-webkit-perspective-origin-y : 50%;
+	-moz-perspective : 1200px;
+	-moz-perspective-origin-x : 50%;
+	-moz-perspective-origin-y : 50%;
+	perspective : 1200px;
+}
+/* fade */
+.owl-fade-out {
+  z-index: 10;
+  -webkit-animation: fadeOut .7s both ease;
+  -moz-animation: fadeOut .7s both ease;
+  animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+  -webkit-animation: fadeIn .7s both ease;
+  -moz-animation: fadeIn .7s both ease;
+  animation: fadeIn .7s both ease;
+}
+/* backSlide */
+.owl-backSlide-out {
+  -webkit-animation: backSlideOut 1s both ease;
+  -moz-animation: backSlideOut 1s both ease;
+  animation: backSlideOut 1s both ease;
+}
+.owl-backSlide-in {
+  -webkit-animation: backSlideIn 1s both ease;
+  -moz-animation: backSlideIn 1s both ease;
+  animation: backSlideIn 1s both ease;
+}
+/* goDown */
+.owl-goDown-out {
+  -webkit-animation: scaleToFade .7s ease both;
+  -moz-animation: scaleToFade .7s ease both;
+  animation: scaleToFade .7s ease both;
+}
+.owl-goDown-in {
+  -webkit-animation: goDown .6s ease both;
+  -moz-animation: goDown .6s ease both;
+  animation: goDown .6s ease both;
+}
+/* fadeUp */
+.owl-fadeUp-in {
+  -webkit-animation: scaleUpFrom .5s ease both;
+  -moz-animation: scaleUpFrom .5s ease both;
+  animation: scaleUpFrom .5s ease both;
+}
+
+.owl-fadeUp-out {
+  -webkit-animation: scaleUpTo .5s ease both;
+  -moz-animation: scaleUpTo .5s ease both;
+  animation: scaleUpTo .5s ease both;
+}
+/* Keyframes */
+/*empty*/
+@-webkit-keyframes empty {
+  0% {opacity: 1}
+}
+@-moz-keyframes empty {
+  0% {opacity: 1}
+}
+@keyframes empty {
+  0% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@-moz-keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@-webkit-keyframes backSlideOut {
+  25% { opacity: .5; -webkit-transform: translateZ(-500px); }
+  75% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+}
+@-moz-keyframes backSlideOut {
+  25% { opacity: .5; -moz-transform: translateZ(-500px); }
+  75% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+}
+@keyframes backSlideOut {
+  25% { opacity: .5; transform: translateZ(-500px); }
+  75% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+}
+@-webkit-keyframes backSlideIn {
+  0%, 25% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; -webkit-transform: translateZ(-500px); }
+  100% { opacity: 1; -webkit-transform: translateZ(0) translateX(0); }
+}
+@-moz-keyframes backSlideIn {
+  0%, 25% { opacity: .5; -moz-transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; -moz-transform: translateZ(-500px); }
+  100% { opacity: 1; -moz-transform: translateZ(0) translateX(0); }
+}
+@keyframes backSlideIn {
+  0%, 25% { opacity: .5; transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; transform: translateZ(-500px); }
+  100% { opacity: 1; transform: translateZ(0) translateX(0); }
+}
+@-webkit-keyframes scaleToFade {
+  to { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleToFade {
+  to { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleToFade {
+  to { opacity: 0; transform: scale(.8); }
+}
+@-webkit-keyframes goDown {
+  from { -webkit-transform: translateY(-100%); }
+}
+@-moz-keyframes goDown {
+  from { -moz-transform: translateY(-100%); }
+}
+@keyframes goDown {
+  from { transform: translateY(-100%); }
+}
+
+@-webkit-keyframes scaleUpFrom {
+  from { opacity: 0; -webkit-transform: scale(1.5); }
+}
+@-moz-keyframes scaleUpFrom {
+  from { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpFrom {
+  from { opacity: 0; transform: scale(1.5); }
+}
+
+@-webkit-keyframes scaleUpTo {
+  to { opacity: 0; -webkit-transform: scale(1.5); }
+}
+@-moz-keyframes scaleUpTo {
+  to { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpTo {
+  to { opacity: 0; transform: scale(1.5); }
+}
+/* =============================================== */
+
+/* http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/owltheme.css */
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	background: url(point.png);
+	background-position: top right;
+	overflow: hidden;
+}
+
+.owl-theme .owl-controls .owl-page.active span{
+	background-position: top left;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url() no-repeat center center
+}
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */

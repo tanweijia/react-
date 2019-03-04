@@ -1,0 +1,191 @@
+.div20e94e5f0422454aaf2732794046fa11 .items {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.div20e94e5f0422454aaf2732794046fa11 .items .item-link {
+  width: 1900px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -950px;
+}
+.div20e94e5f0422454aaf2732794046fa11 .items .item-link .item-img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.div20e94e5f0422454aaf2732794046fa11 .owl-theme .owl-controls {
+  position: relative;
+  max-width: 1000px;
+  margin: -30px auto 0 auto;
+  overflow: hidden;
+}
+.div20e94e5f0422454aaf2732794046fa11 .owl-pagination {
+  float: right;
+}
+.div20e94e5f0422454aaf2732794046fa11 .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  background: #cccccc no-repeat top right;
+  overflow: hidden;
+}
+.div20e94e5f0422454aaf2732794046fa11
+  .owl-theme
+  .owl-controls
+  .owl-page.active
+  span {
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  background: #bc0021 no-repeat top right;
+  overflow: hidden;
+}
+
+.KV .login {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/login1.png")
+    no-repeat;
+  width: 293px;
+  height: 368px;
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  margin-left: -510px;
+}
+.login_btn {
+  cursor: pointer;
+  width: 270px;
+  height: 58px;
+  position: absolute;
+  bottom: 18px;
+  left: 10px;
+}
+.login_center {
+  padding: 39px 30px 30px 26px;
+}
+.per_login {
+  position: relative;
+  cursor: pointer;
+}
+.per_login input {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_btn1.png")
+    no-repeat;
+  width: 237px;
+  height: 43px;
+  border: 0;
+}
+.per_login p {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  height: 43px;
+  line-height: 42px;
+  left: 64px;
+  font-size: 16px;
+}
+.per_login p span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png")
+    no-repeat center center;
+  height: 43px;
+  width: 11px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+.ee_login {
+  position: relative;
+  cursor: pointer;
+}
+.ee_login input {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_btn2.png")
+    no-repeat;
+  width: 237px;
+  height: 43px;
+  border: 0;
+}
+.ee_login p {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  height: 43px;
+  line-height: 43px;
+  left: 64px;
+  font-size: 16px;
+}
+.ee_login p span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png")
+    no-repeat center center;
+  height: 43px;
+  width: 11px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+.per_login_quick {
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+.ee_login_quick {
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+.login_center td {
+  font-size: 12px;
+  width: 79px;
+  text-align: center;
+  height: 22px;
+  cursor: pointer;
+}
+.login_center td.on a {
+  color: #d00f1b;
+}
+.login_center td.td_2 {
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.login_center td em {
+  width: 36px;
+  display: inline-block;
+}
+.reg_login {
+  position: relative;
+  cursor: pointer;
+}
+.reg_login input {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/btn1.png") no-repeat;
+  width: 237px;
+  height: 43px;
+  border: 0;
+}
+.reg_login p {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  height: 43px;
+  line-height: 43px;
+  left: 64px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.reg_login p span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png")
+    no-repeat center center;
+  height: 43px;
+  width: 11px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+.reg_login_quick {
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+.login_center td.td_3 {
+  border-left: 1px solid #e5e5e5;
+}

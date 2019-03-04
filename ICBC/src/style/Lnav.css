@@ -1,0 +1,24 @@
+.zuiai-ul li {
+  float: left;
+  width: 62px;
+  height: 40px;
+  text-align: center;
+  margin: 0 4px;
+}
+.zuiai-ul li a p {
+  padding-top: 4px;
+  font-size: 12px;
+  color: #888889;
+  
+}
+.pic-box {
+  height: 40px;
+  background: url(https://mybank.icbc.com.cn/icbc/newperbank/perbank3/images/quickFunc/zuiai_add_v.png)
+    center bottom no-repeat;
+}
+.pic-box1 {
+  height: 40px;
+  background: url(https://mybank.icbc.com.cn/icbc/newperbank/perbank3/images/quickFunc/zuiai_add_r.png)
+    center bottom no-repeat;
+}
+

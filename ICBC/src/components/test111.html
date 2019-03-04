@@ -1,0 +1,648 @@
+<html>
+  <head>
+    <script language="JavaScript1.1" src="/js/ControlsId.js"></script>
+
+    <title>react银行-注册</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="https://epass.icbc.com.cn/css/css.css" />
+    <script language="javascript" src="/js/swapimage.js"></script>
+    <script language="javascript" src="/js/checkacct.js"></script>
+    <script language="javascript" src="/js/commonCheck.js"></script>
+    <script language="javascript" src="/js/pid.js"></script>
+    <script language="javascript" src="/js/getcardbinfo.js"></script>
+    <script
+      language="javascript"
+      src="/js/pebank_browsercompatible.js"
+    ></script>
+    <script src="../js/reg.js"></script>
+    <style type="text/css">
+      body {
+        font-family: 宋体;
+      }
+      select {
+        font-size: 13px;
+        font-family: 宋体;
+        margin-left: 0px;
+      }
+      textarea {
+        font-size: 12px;
+        font-family: 宋体;
+        margin-left: 0px;
+      }
+      input:empty {
+        font-size: 13px;
+        font-family: 宋体;
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+      html,
+      body {
+        -webkit-text-size-adjust: none;
+      }
+      table,
+      td {
+        border-color: rgb(236, 233, 216);
+      }
+      input[type="text"],
+      input[type="file"],
+      input[type="reset"],
+      input[type="submit"],
+      input[type="button"],
+      input[type="password"] {
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+      input[type="radio"],
+      input[type="checkbox"] {
+        vertical-align: -2px;
+        margin-top: 0px;
+      }
+    </style>
+    <script language="javascript" src="/js/preventFresh.js"></script>
+    <script language="javascript" src="/js/jquery-1.4.3.js"></script>
+    <script language="Javascript" src="/js/floatTip1.js"></script>
+    <script language="javascript" src="/js/floatTip.js"></script>
+    <script language="javascript" src="/js/json2.js"></script>
+    <script language="javascript" src="/js/datastruct-ajax-eb.js"></script>
+    <script language="javascript">
+      var submitflag = false;
+      function check() {
+        form1.CNcustName.value = encodeURI(form1.custNameTmp.value);
+        if (
+          document.all.CNcustName.value == "" ||
+          document.all.CNcustName.value == null
+        ) {
+          alert("姓名不能为空！");
+          document.all.CNcustName.focus();
+          return;
+        }
+        //证件类型、证件号码
+        if (document.all.credType.value == "xx") {
+          alert("请选择证件类型！");
+          return;
+        }
+        //添加身份证最后一位输入‘x’->‘X’的转换   add by kfzx-fengyd 20170815
+        document.all.credNum.value = document.all.credNum.value.toUpperCase();
+        //add end
+        var cn = document.all.credNum.value;
+        if (cn == "" || cn == null) {
+          alert("请输入证件号码");
+          document.all.credNum.focus();
+          return;
+        }
+        if (document.all.credType.value == "0") {
+          if (cn == "" || cn == null || cn.length != 18) {
+            alert("请输入18位二代身份证号码");
+            document.all.credNum.focus();
+            return;
+          }
+          if (checkPID(cn) == false) {
+            alert("输入的身份证号码不正确，请重新输入！");
+            document.all.credNum.focus();
+            return;
+          }
+        }
+        //手机号
+        var wapMobile = document.all.phoneNum.value;
+        if (wapMobile.indexOf(" ") != -1) {
+          alert("手机号码中间不能有空格！");
+          document.all.phoneNum.focus();
+          return;
+        } else if (wapMobile == "") {
+          alert("请输入手机号码！");
+          document.all.phoneNum.focus();
+          return;
+        } else if (!/^\d{11}/.test(wapMobile)) {
+          alert("输入的手机号中包含非法字符或者长度不为11位！");
+          document.all.phoneNum.focus();
+          return;
+        }
+        if (!document.all.KeyPart.isValid()) {
+          alert("输入的验证码不合法，请重新输入！");
+          document.all.KeyPart.focus();
+          return;
+        }
+        if (submitflag) {
+          alert("请勿重复提交！");
+          return;
+        } else {
+          submitflag = true;
+        }
+        document.all.safeSubmit1.reset();
+        document.all.KeyPart.commitKeyPart(document.all.KeyPart);
+        document.all.KeyPart.commit(document.all.safeSubmit1);
+        document.all.safeSubmit1.submit(form1);
+      }
+      function reset() {
+        document.all.CNcustName.value = "";
+        document.all.credNum.value = "";
+        document.all.phoneNum.value = "";
+        document.getElementById("KeyPart").clear();
+        document.all.credType.value = "xx";
+      }
+    </script>
+  </head>
+
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+    onload=""
+  >
+    <div
+      id="tooltip2"
+      style="position: absolute; visibility: hidden; clip: rect(0 360 360 0); width: 360px; background-color: #FFFFFF; height: 15px"
+    >
+      <layer name="nstip" width="1000px" bgcolor="#FF0000"></layer>
+    </div>
+    <table
+      width="778"
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      align="center"
+      height="100"
+    >
+      <tbody>
+        <tr valign="middle">
+          <td colspan="2" height="20"></td>
+        </tr>
+        <tr valign="middle">
+          <td></td>
+          <td align="right"></td>
+        </tr>
+        <tr valign="middle">
+          <td width="40%">
+            <img src="https://epass.icbc.com.cn/images/icbc.png" width="350" height="48" />
+          </td>
+
+          <td width="60%" align="left">
+            <font style="font-size: 22px" color="#333"
+              >&nbsp;&nbsp;|&nbsp;&nbsp;<b>注册</b></font
+            >
+          </td>
+        </tr>
+        <tr valign="middle">
+          <td colspan="2"><hr color="#c7000b" /></td>
+        </tr>
+        <tr valign="middle">
+          <td colspan="2" height="20"></td>
+        </tr>
+        <tr align="center">
+          <td align="center" height="20" colspan="2"></td>
+        </tr>
+      </tbody>
+    </table>
+    <form
+      name="mall"
+      method="post"
+      action="https://mall.icbc.com.cn/"
+      onsubmit="javascript:return false"
+    ></form>
+    <form
+      name="form1"
+      method="post"
+      action="/servlet/ICBCINBSEstablishSessionServlet"
+      onsubmit="javascript:return false"
+    >
+      <input type="hidden" name="tranFlag" value="8" />
+      <input type="hidden" name="netType" value="4" />
+      <input type="hidden" name="Language" value="ZH_CN" />
+      <input type="hidden" name="PlatFlag" value="3" />
+      <input type="hidden" name="ComputID" value="18" />
+      <input
+        type="hidden"
+        name="encryptedData"
+        value="w9A3onPU54b7Lq9Du2GSCLs8Fpe9sVkrmFZHbpyAf74JsR6gEJL8ONaW1btfSEuQ7VZKRFqR6osRRr2cbm2XcEMBgjny0OOiSRhxSFBbuxRRV4vtmX9Yx3P+sNG/NBkVWhoB3ZNXsTdkAT7sGwi37MzSnlcpqSHdRjGz8UaOW69r/70YBfOn0CPyVMaYcOVAd7cJbWx+8g3OZYYLzkofLo38v+XI3qG3r4O+c9yj1bKDJiYeNRGV4ZdGCnHhsu0hgM/rhHRe25tWjjXXXKLThYhH+EtyjlovZTaRIN0Q9S1u1PoqEX3b2D2WC+sWOUBoVOHtTIT66nR6zjghWDRUBRaOWgCymHBey9LxoZBQHt4fPxPpejeFNJpHaU7VDkggWQD7PZqclCfbVho7WFutMqxxDNt5wgEpw8Cz7ssPCDk=+"
+      />
+      <input type="hidden" name="currentmac_input" value="" />
+      <input type="hidden" name="StructCode" value="1" />
+      <input type="hidden" name="customerGroup" value="1010" />
+      <input type="hidden" name="channelCode" value="302" />
+      <input
+        type="hidden"
+        name="encryptedDataApp"
+        value="w9A3onPU54b7Lq9Du2GSCLs8Fpe9sVkrmFZHbpyAf74JsR6gEJL8ONaW1btfSEuQ7VZKRFqR6osRRr2cbm2XcEMBgjny0OOiSRhxSFBbuxRRV4vtmX9Yx3P+sNG/NBkVWhoB3ZNXsTdkAT7sGwi37MzSnlcpqSHdRjGz8UaOW69r/70YBfOn0CPyVMaYcOVAd7cJbWx+8g3OZYYLzkofLo38v+XI3qG3r4O+c9yj1bKDJiYeNRGV4ZdGCnHhsu0hgM/rhHRe25tWjjXXXKLThYhH+EtyjlovZTaRIN0Q9S1u1PoqEX3b2D2WC+sWOUBoVOHtTIT66nR6zjghWDRUBRaOWgCymHBey9LxoZBQHt4fPxPpejeFNJpHaU7VDkggWQD7PZqclCfbVho7WFutMqxxDNt5wgEpw8Cz7ssPCDk=+"
+      />
+      <input type="hidden" id="CNcustName" name="CNcustName" value="" />
+      <table
+        width="740"
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        align="center"
+        id="logontb"
+      >
+        <tbody>
+          <tr>
+            <td width="25" height="24" valign="top"></td>
+            <td width="706" rowspan="3">
+              <table width="706" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td valign="bottom"></td>
+                    <td>
+                      <div id="safeSubmit1div">
+                        <script>
+                          if (!pulginHasInstalled()) {
+                            document.write("<aaa name='");
+                          } else {
+                            document.write("<object name='");
+                          }</script>
+                          <aaa
+                          name="safeSubmit1"
+                          style="margin-left:2px;"
+                          type="application/x-icbc-plugin-chrome-npsubmit"
+                          id="safeSubmit1"
+                          width="0"
+                          height="0"
+                        >
+                        </aaa>
+                      </div>
+                      <table
+                        width="100%"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                        align="center"
+                      >
+                        <tbody>
+                          <tr align="center">
+                            <td height="25" colspan="2">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="45" width="40%" align="right">
+                              姓名：
+                            </td>
+                            <td width="50%">
+                              <input
+                                type="text"
+                                id="custNameTmp"
+                                size="22"
+                                maxlength="30"
+                                value=""
+                                autocomplete="off"
+                                autocorrect="off"
+                                autocapitalize="off"
+                                spellcheck="false"
+                              />
+                            </td>
+                            <td height="45" width="10%">
+                              &nbsp;
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="45" align="right">证件类型：</td>
+                            <td>
+                              <select name="credType">
+                                <option value="xx">请 选 择</option>
+                                <option selected="selected" value="0"
+                                  >身份证</option
+                                >
+                                <option value="1">护照</option>
+                                <option value="2">军官证</option>
+                                <option value="3">士兵证</option>
+                                <option value="4">港澳台往来通行证</option>
+                                <option value="5">临时身份证</option>
+                                <option value="6">户口簿</option>
+                                <option value="9">警官证</option>
+                                <option value="12">外国人永久居留证</option>
+                                <option value="21">边民出入境通行证</option>
+                                <option value="7">其他</option>
+                              </select>
+                            </td>
+                            <td height="45" width="10%">
+                              &nbsp;
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="45" align="right">证件号码：</td>
+                            <td>
+                              <input
+                                type="text"
+                                id="credNum"
+                                name="credNum"
+                                size="22"
+                                maxlength="18"
+                                value=""
+                                autocomplete="off"
+                                autocorrect="off"
+                                autocapitalize="off"
+                                spellcheck="false"
+                              />
+                            </td>
+                            <td height="45">
+                              &nbsp;
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="45" align="right">手机号码：</td>
+                            <td>
+                              <input
+                                type="text"
+                                id="phoneNum"
+                                name="phoneNum"
+                                size="22"
+                                maxlength="11"
+                                value=""
+                                autocomplete="off"
+                                autocorrect="off"
+                                autocapitalize="off"
+                                spellcheck="false"
+                              />
+                            </td>
+                            <td height="45">
+                              &nbsp;
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="45" align="right">
+                              <nobr
+                                ><font color="#ff0000">*</font
+                                >请输入验证码：</nobr
+                              >
+                            </td>
+                            <td nowrap="" height="20">
+                              <div
+                                id="KeyPartdiv"
+                                style="display:inline;margin-right:6px;"
+                              >
+                                <object
+                                  id="KeyPart"
+                                  style="background-color: white; vertical-align: middle; display: none;"
+                                  type="application/x-icbc-plugin-chrome-npxxin-input"
+                                  width="157"
+                                  height="25"
+                                  onmousedown="this.focus();"
+                                >
+                                  <param name="keyname" value="verifyCode" />
+                                  <param name="minLength" value="4" />
+                                  <param name="maxLength" value="4" />
+                                  <param name="rule" value="10111" />
+                                  <param
+                                    name="UniqueID"
+                                    value="1551152255747482242"
+                                  />
+                                  <param name="isPassword" value="0" />
+                                  <param name="prompttext" value=" " />
+                                  <param name="prompttextcolor" value="0,0,0" />
+                                  <param
+                                    name="backgroundcolor"
+                                    value="255,255,255"
+                                  />
+                                  <param name="isbordervisible" value="1" />
+                                  &gt;
+                                  <script>
+                                    if (!pulginHasInstalled()) {
+                                      document.write("&nbsp;");
+                                    }</script>
+                                    &nbsp;
+                                </object>
+                              </div>
+                              <script>
+                                var judgeVersionKeyPart = function(n) {
+                                  var mac_safecontrol_version = "";
+                                  pluginInputVersion = "1.0.0.5";
+                                  pluginSubmitVersion = "1.0.0.3";
+                                  pluginFullScreenVersion = "1.0.0.1";
+                                  pluginClientBindingVersion = "1.0.0.0";
+                                  pluginCLCacheVersion = "1.0.0.2";
+                                  if (!checkVersionIsOk()) {
+                                    if (
+                                      document.getElementById(
+                                        "plagin_download_tip"
+                                      ) == null
+                                    ) {
+                                      if (n == 0) {
+                                        document.write(
+                                          "<a id='plagin_download_tip' style='color:blue;' href='/ICBCChromeExtension.msi'><div style='width:100%;white-space:normal;'>您的控件版本过低，请点击下载更新后重启浏览器</div></a>"
+                                        );
+                                      } else {
+                                        document
+                                          .getElementById(
+                                            "plagin_download_tip_span"
+                                          )
+                                          .insertAdjacentHTML(
+                                            "afterBegin",
+                                            "<a id='plagin_download_tip'  style='color:blue;' href='/ICBCChromeExtension.msi'><div style='width:100%;white-space:normal;'>您的控件版本过低，请点击下载更新后重启浏览器</div></a>"
+                                          );
+                                      }
+                                    }
+                                    var embeds = document.body.getElementsByTagName(
+                                      "object"
+                                    );
+                                    for (var i = 0; i < embeds.length; i++) {
+                                      embeds[i].style.display = "none";
+                                    }
+                                  }
+                                };
+                                if (!pulginHasInstalled()) {
+                                  if (
+                                    document.getElementById(
+                                      "plagin_download_tip"
+                                    ) == null
+                                  ) {
+                                    document.write(
+                                      "<a id='plagin_download_tip'  style='color:blue;' href='/ICBCChromeExtension.msi'><div style='width:100%;white-space:normal;'>您未安装控件，请点击下载安装完成后重启浏览器</div></a>"
+                                    );
+                                  }
+                                  document.all.KeyPart.style.display = "none";
+                                } else {
+                                  if (judgeVersionKeyPart(0) == false) {
+                                    if (
+                                      document.getElementById(
+                                        "plagin_download_tip_span"
+                                      ) == null
+                                    ) {
+                                      document.write(
+                                        "<span id='plagin_download_tip_span'></span>"
+                                      );
+                                    }
+                                    window.onfocus = function() {
+                                      setTimeout("judgeVersionKeyPart(1)", 200);
+                                    };
+                                  }
+                                }</script>
+                                <a
+                                id="plagin_download_tip"
+                                style="color:blue;"
+                                href="/ICBCChromeExtension.msi"
+                                ><div style="width:100%;white-space:normal;">
+                                  您未安装控件，请点击下载安装完成后重启浏览器
+                                </div></a
+                              >
+
+                              <input
+                                type="hidden"
+                                name="randomId"
+                                value="1551152255747482242"
+                              />
+                              <nobr>
+                                <iframe
+                                  frameborder="0"
+                                  name="VerifyimageFrame"
+                                  id="VerifyimageFrame"
+                                  scrolling="no"
+                                  src="https://epass.icbc.com.cn/servlet/com.icbc.inbs.person.servlet.Verifyimage2?randomKey=1551152255747482242&amp;imageAlt=点击图片可刷新"
+                                  marginheight="0"
+                                  style="vertical-align:top;"
+                                  marginwidth="0"
+                                  height="28"
+                                  width="80"
+                                  onload="this.contentWindow.document.oncontextmenu =  function(){return false;};"
+                                >
+                                </iframe>
+                                &nbsp;<a
+                                  id="link4Verifyimage2Name"
+                                  href="JavaScript:refreshVerifyimage();"
+                                ></a></nobr
+                              ><a
+                                id="link4Verifyimage2Name"
+                                href="JavaScript:refreshVerifyimage();"
+                                ><nobr
+                                  ><font color="#f4743f"><u></u></font></nobr
+                                ><font color="#f4743f"
+                                  ><u
+                                    ><nobr
+                                      ><font style="vertical-align:top;"
+                                        >刷新验证码</font
+                                      ></nobr
+                                    ></u
+                                  ></font
+                                ></a
+                              ><font color="#f4743f">
+                                <script language="JavaScript">
+                                  if (
+                                    navigator.userAgent
+                                      .toLowerCase()
+                                      .indexOf("chrome/") != -1
+                                  ) {
+                                    //这里注意chrome的useragent也包含safari
+                                    VerifyimageFrame.location.href =
+                                      "https://epass.icbc.com.cn/servlet/com.icbc.inbs.person.servlet.Verifyimage2?randomKey=1551152255747482242&imageAlt=点击图片可刷新" +
+                                      "&appendRandom=" +
+                                      new Date().getTime();
+                                  } else if (
+                                    navigator.userAgent
+                                      .toLowerCase()
+                                      .indexOf("safari") != -1 ||
+                                    navigator.userAgent
+                                      .toLowerCase()
+                                      .indexOf("firefox") != -1
+                                  ) {
+                                    VerifyimageFrame.location.href =
+                                      "https://epass.icbc.com.cn/servlet/com.icbc.inbs.person.servlet.Verifyimage2?randomKey=1551152255747482242&imageAlt=点击图片可刷新" +
+                                      "&appendRandom=" +
+                                      new Date().getTime();
+                                  }
+                                  function refreshVerifyimage() {
+                                    if (
+                                      navigator.userAgent
+                                        .toLowerCase()
+                                        .indexOf("chrome/") != -1
+                                    ) {
+                                      //这里注意chrome的useragent也包含safari
+                                      var url =
+                                        "https://epass.icbc.com.cn/servlet/com.icbc.inbs.person.servlet.Verifyimage2?randomKey=1551152255747482242&imageAlt=点击图片可刷新" +
+                                        "&appendRandom=" +
+                                        new Date().getTime();
+                                      VerifyimageFrame.location.replace(url);
+                                    } else if (
+                                      navigator.userAgent
+                                        .toLowerCase()
+                                        .indexOf("safari") != -1
+                                    ) {
+                                      //safari回退时，验证码不刷新问题
+                                      window.focus(); //解决db103335688
+                                      VerifyimageFrame.location.href =
+                                        "https://epass.icbc.com.cn/servlet/com.icbc.inbs.person.servlet.Verifyimage2?randomKey=1551152255747482242&imageAlt=点击图片可刷新" +
+                                        "&appendRandom=" +
+                                        new Date().getTime();
+                                    } else {
+                                      VerifyimageFrame.location.reload();
+                                    }
+
+                                    try {
+                                      //刷新验证码后重新进行倒计时，只对页面定义了vctimeout()的页面有效。
+                                      clearTimeout(vctime);
+                                      vctime = setTimeout(
+                                        "vctimeout()",
+                                        300000
+                                      );
+                                    } catch (exception) {}
+                                  }
+                                </script>
+                              </font>
+                            </td>
+
+                            <td>
+                              &nbsp;
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <font
+                                >温馨提示：如果您还不是我行客户，请输入一张他行卡的柜面预留手机号作为您的注册手机号。</font
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table width="98%" border="0" cellspacing="10" cellpadding="1">
+                <tbody>
+                  <tr>
+                    <td height="40" align="right">
+                      <div class="n_btn" onclick="javascript:check();">
+                        <nobr>下一步</nobr>
+                      </div>
+                    </td>
+                    <td height="40" align="left">
+                      <div class="n1_btn" onclick="javascript:reset();">
+                        <nobr>重置</nobr>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <table
+      width="700"
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      align="center"
+    >
+      <tbody>
+        <tr align="center">
+          <td colspan="2" height="20"></td>
+        </tr>
+        <tr align="center">
+          <td>
+            <font color="bc0021"
+              >请与我们联系
+              <a href="mailto:webmaster@icbc.com.cn">webmaster@icbc.com.cn</a>
+              中国工商银行版权所有</font
+            >
+          </td>
+        </tr>
+        <tr align="center">
+          <td colspan="2" height="20"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

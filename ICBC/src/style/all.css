@@ -1,0 +1,666 @@
+/* body内部插入的样式 */
+/* 第一个==================== */
+.style10 {
+  font-size: 16px;
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style10:link {
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style10:active {
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style10:visited {
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style10:hover {
+  color: #d00f1b;
+  text-decoration: none;
+}
+.style11 {
+  font-size: 14px;
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style11:link {
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style11:active {
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style11:visited {
+  color: #0d131a;
+  text-decoration: none;
+}
+a.style11:hover {
+  color: #d00f1b;
+  text-decoration: none;
+}
+.chanpin {
+  color: #0d131a;
+  text-decoration: none;
+}
+.chanpin:hover {
+  color: #d00f1b;
+  text-decoration: none;
+  cursor: pointer;
+}
+.l1 .tzlc_title1 i {
+  left: 0px;
+}
+#floating {
+  position: absolute;
+  width: 100%;
+  height: 580px;
+  top: 0px;
+  z-index: 1000;
+  display: none;
+  left: 0px;
+  overflow: hidden;
+}
+#floating .imgBox {
+  width: 100%;
+  text-align: center;
+}
+#floating .imgBox img {
+  margin-left: -100px;
+}
+#floating .closeBox {
+  cursor: pointer;
+  position: absolute;
+  top: 548px;
+  width: 100px;
+  background: #fff;
+  background-color: rgba(255, 255, 255, 255);
+  padding: 5px;
+  border: solid 1px #d3d3d3;
+  border-radius: 4px;
+  text-align: center;
+}
+#floating .closeBox p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+  color: rgba(0, 0, 0, 0.8);
+}
+#floating .closeBox p span#timer {
+  font-size: 16px;
+}
+.span:hover {
+  color: #d00f1b;
+}
+
+/* 第二个==================== */
+/* div503254bc42bc4c469baabd200b2fba44 被div1a0924f341fd4aa78aeec08d406eb15f替换*/
+
+.div503254bc42bc4c469baabd200b2fba44 .items {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.div503254bc42bc4c469baabd200b2fba44 .items .item-link {
+  width: 1900px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -950px;
+}
+.div503254bc42bc4c469baabd200b2fba44 .items .item-link .item-img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .owl-theme .owl-controls {
+  position: relative;
+  left: 50%;
+  float: left;
+  /* max-width: 1000px; */
+  margin: -30px auto 0 auto;
+  text-align: center;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .owl-pagination {
+  position: relative;
+  left: -50%;
+  float: left;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f .owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  background: #cccccc;
+  overflow: hidden;
+}
+.div1a0924f341fd4aa78aeec08d406eb15f
+  .owl-theme
+  .owl-controls
+  .owl-page.active
+  span {
+  width: 50px;
+  height: 4px;
+  margin: 3px 7px;
+  background: #bc0021;
+  overflow: hidden;
+}
+/* 第三个===================== */
+.reg_login {
+  position: relative;
+  cursor: pointer;
+}
+.reg_login input {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/btn1.png")
+    no-repeat;
+  width: 237px;
+  height: 43px;
+  border: 0;
+}
+.reg_login p {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  height: 43px;
+  line-height: 43px;
+  left: 64px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.reg_login p span {
+  background: url("http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png")
+    no-repeat center center;
+  height: 43px;
+  width: 11px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+.reg_login_quick {
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+.login_center td.td_3 {
+  border-left: 1px solid #e5e5e5;
+}
+/* 第四个================= */
+.ChannelSummaryList-insty {
+  line-height: 150%;
+}
+.ChannelSummaryList-summary {
+  line-height: 160%;
+  color: #222;
+  text-decoration: none;
+}
+/* 第五个====================== */
+.action_T .items img {
+  height: 460px;
+}
+/* 第六个========================== */
+.action_M .r .icon_hover {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+/* 第七个======================= */
+#ysideBox {
+  right: 0px;
+  position: fixed;
+  min-height: 280px;
+  z-index: 1000;
+  top: 420px;
+}
+#ysideBox > ul > li {
+  margin-bottom: 4px;
+  cursor: pointer;
+  position: relative;
+  zoom: 1;
+  display: table;
+  list-style: none none outside;
+}
+#ysideBox > ul > li > a {
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+#ysideBox .RobotInput {
+  font-size: 12px;
+  border-top: #d1d1d1 1px solid;
+  height: 55px;
+  border-right: #d1d1d1 1px solid;
+  width: 250px;
+  border-bottom: #d1d1d1 1px solid;
+  margin-left: 20px;
+  border-left: #d1d1d1 1px solid;
+  margin-top: 100px;
+}
+#ysideBox .ui-autocomplete {
+  list-style-type: none;
+  font-size: 12px;
+  border-top: #d1d1d1 1px solid;
+  border-right: #d1d1d1 1px solid;
+  width: 335px;
+  border-bottom: #d1d1d1 1px solid;
+  padding-bottom: 5px;
+  text-align: right;
+  padding-top: 5px;
+  padding-left: 0px;
+  margin: 0px;
+  list-style-image: none;
+  border-left: #d1d1d1 1px solid;
+  padding-right: 0px;
+  background-color: #fbf8ef;
+}
+#ysideBox .askListItem {
+  cursor: pointer;
+  font-size: 12px;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+  line-height: 20px;
+}
+#ysideBox .em11 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav1.png)
+    no-repeat center center;
+}
+#ysideBox .em21 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_er.png)
+    no-repeat center center;
+}
+#ysideBox .em31 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_phone.png)
+    no-repeat center center;
+}
+#ysideBox .em41 {
+  background: no-repeat center center;
+}
+#ysideBox .em51 {
+  background: no-repeat center center;
+}
+#ysideBox .em61 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav2.png)
+    no-repeat center center;
+  display: none;
+}
+#ysideBox .em12 {
+  font-size: 12px;
+  text-decoration: none !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav1_b_ie8.png)
+    no-repeat;
+  position: absolute;
+  font-weight: 700;
+  color: #fff !important;
+  text-align: center;
+  content: attr(data-text);
+  left: 0px;
+  display: none;
+  top: 0px;
+}
+#ysideBox li:hover .em12 {
+  display: block;
+}
+#ysideBox .em22 {
+  font-size: 12px;
+  text-decoration: none !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_er_b_ie8.png)
+    no-repeat;
+  position: absolute;
+  font-weight: 700;
+  color: #fff !important;
+  text-align: center;
+  content: attr(data-text);
+  left: 0px;
+  display: none;
+  top: 0px;
+}
+#ysideBox li:hover .em22 {
+  display: block;
+}
+#ysideBox .em32 {
+  font-size: 12px;
+  text-decoration: none !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_phone_b.png)
+    no-repeat;
+  position: absolute;
+  font-weight: 700;
+  color: #fff !important;
+  text-align: center;
+  content: attr(data-text);
+  left: 0px;
+  display: none;
+  top: 0px;
+}
+#ysideBox li:hover .em32 {
+  display: block;
+}
+#ysideBox .em42 {
+  font-size: 12px;
+  text-decoration: none !important;
+  background: no-repeat;
+  position: absolute;
+  font-weight: 700;
+  color: #fff !important;
+  text-align: center;
+  content: attr(data-text);
+  left: 0px;
+  display: none;
+  top: 0px;
+}
+#ysideBox li:hover .em42 {
+  display: block;
+}
+#ysideBox .em52 {
+  font-size: 12px;
+  text-decoration: none !important;
+  background: no-repeat;
+  position: absolute;
+  font-weight: 700;
+  color: #fff !important;
+  text-align: center;
+  content: attr(data-text);
+  left: 0px;
+  display: none;
+  top: 0px;
+}
+#ysideBox li:hover .em52 {
+  display: block;
+}
+#ysideBox .em62 {
+  font-size: 12px;
+  text-decoration: none !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav2_b.png)
+    no-repeat;
+  position: absolute;
+  font-weight: 700;
+  color: #fff !important;
+  text-align: center;
+  content: attr(data-text);
+  left: 0px;
+  display: none;
+  top: 0px;
+}
+#ysideBox li:hover .em62 {
+  display: block;
+}
+#ysideBox .help-poper {
+  overflow: hidden;
+  height: 384px;
+  width: 0px;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav.png)
+    no-repeat 0px 0px;
+  position: absolute;
+  z-index: 1000;
+  margin-top: -125px;
+}
+#ysideBox .helper-pop {
+  overflow: hidden;
+  height: 380px;
+  width: 0px;
+  position: absolute;
+  margin-top: -105px;
+  top: 50%;
+}
+#ysideBox .yhelp_main {
+  position: absolute;
+  padding-bottom: 0px;
+  padding-top: 105px;
+  padding-left: 18px;
+  left: 0px;
+  top: 0px;
+  padding-right: 16px;
+}
+#ysideBox .yhelp_main input {
+  border-top: #e5e5e5 1px solid;
+  height: 55px;
+  border-right: #e5e5e5 1px solid;
+  width: 250px;
+  background: white;
+  border-bottom: #e5e5e5 1px solid;
+  border-left: #e5e5e5 1px solid;
+}
+#ysideBox .yhelp_main p {
+  font-size: 14px;
+  float: left;
+  color: #a7a7a7;
+  margin-top: 1px;
+  line-height: 2;
+}
+#ysideBox .yhelp_main a {
+  position: relative;
+  float: right;
+  margin-top: 3px;
+  display: inline-block;
+  margin-right: 8px;
+}
+/* 第八个======================= */
+#ysideBox {
+  position: fixed;
+  top: 420px;
+  right: 0;
+  min-height: 280px;
+  z-index: 1000;
+}
+#ysideBox > ul > {
+  list-style: none outside none;
+}
+#ysideBox > ul > li {
+  margin-bottom: 4px;
+  cursor: pointer;
+  list-style: none outside none;
+  display: table;
+  zoom: 1;
+  position: relative;
+}
+#ysideBox > ul > li > a {
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+#ysideBox .RobotInput {
+  border-bottom: #d1d1d1 1px solid;
+  border-left: #d1d1d1 1px solid;
+  font-size: 12px;
+  margin-top: 100px;
+  margin-left: 20px;
+  border-top: #d1d1d1 1px solid;
+  border-right: #d1d1d1 1px solid;
+  width: 250px;
+  height: 55px;
+}
+#ysideBox .ui-autocomplete {
+  list-style: none;
+  border: 1px solid #d1d1d1;
+  width: 335px;
+  background-color: #fbf8ef;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+#ysideBox .askListItem {
+  cursor: pointer;
+  text-align: left;
+  height: 20px;
+  font-size: 12px;
+  padding-left: 5px;
+  line-height: 20px;
+}
+#ysideBox .em11 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav1.png)
+    center center no-repeat;
+}
+#ysideBox .em21 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/sideNav_wechat.png)
+    center center no-repeat;
+}
+#ysideBox .em31 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_er.png)
+    center center no-repeat;
+}
+#ysideBox .em41 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_phone.png)
+    center center no-repeat;
+}
+#ysideBox .em51 {
+  background: url() center center no-repeat;
+}
+#ysideBox .em61 {
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav2.png)
+    center center no-repeat;
+  display: none;
+}
+#ysideBox .em12 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav1_b_ie8.png)
+    no-repeat;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+#ysideBox li:hover .em12 {
+  display: block;
+}
+#ysideBox .em22 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/sideNav_wechat_b.png)
+    no-repeat;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+#ysideBox li:hover .em22 {
+  display: block;
+}
+#ysideBox .em32 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_er_b_ie8.png)
+    no-repeat;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+#ysideBox li:hover .em32 {
+  display: block;
+}
+#ysideBox .em42 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav_phone_b.png)
+    no-repeat;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+#ysideBox li:hover .em42 {
+  display: block;
+}
+#ysideBox .em52 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  background: url() no-repeat;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+#ysideBox li:hover .em52 {
+  display: block;
+}
+#ysideBox .em62 {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff !important;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav2_b.png)
+    no-repeat;
+  text-decoration: none !important;
+  text-align: center;
+  display: none;
+}
+#ysideBox li:hover .em62 {
+  display: block;
+}
+#ysideBox .help-poper {
+  z-index: 1000;
+  width: 0;
+  height: 384px;
+  position: absolute;
+  margin-top: -125px;
+  background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sideNav.png)
+    0 0 no-repeat;
+  overflow: hidden;
+}
+#ysideBox .helper-pop {
+  width: 0;
+  height: 380px;
+  position: absolute;
+  top: 50%;
+  margin-top: -105px;
+  overflow: hidden;
+}
+#ysideBox .yhelp_main {
+  padding: 105px 16px 0px 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#ysideBox .yhelp_main input {
+  border: 1px solid #e5e5e5;
+  width: 250px;
+  height: 55px;
+  background: white;
+}
+#ysideBox .yhelp_main p {
+  color: #a7a7a7;
+  font-size: 14px;
+  line-height: 2;
+  margin-top: 1px;
+  float: left;
+}
+#ysideBox .yhelp_main a {
+  position: relative;
+  display: inline-block;
+  margin-top: 3px;
+  margin-right: 8px;
+  float: right;
+}
